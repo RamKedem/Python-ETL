@@ -1,0 +1,11 @@
+{
+	"data_sources": {
+		"csv": {
+			"campaigns": "csv/campaigns",
+			"crypto":"csv/crypto"
+		},
+		"excel": {
+			"webpharm": "excel/webpharm"
+		}
+	}
+}

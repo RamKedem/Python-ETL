@@ -1,0 +1,1252 @@
+2020-04-21 12:05:31 - __main__ - INFO : ======== 12:05:31 ETL Process Initiated ========
+2020-04-21 12:05:31 - load - INFO : Attempting to connect
+2020-04-21 12:05:31 - load - INFO : Connection successfull
+2020-04-21 12:05:31 - extract - INFO : campaigns - Initiating Extract
+2020-04-21 12:05:31 - extract - INFO : campaigns extracted successfully
+2020-04-21 12:05:31 - transform - INFO : campaigns - Initiating Transorm
+2020-04-21 12:05:31 - transform - INFO : campaigns transformed successfully
+2020-04-21 12:05:31 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 12:05:31 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-21 12:05:31 - load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 4867.31it/s]
+2020-04-21 12:05:31 - load - INFO : campaigns - Insert completed successfully in 0.13364195823669434 seconds
+2020-04-21 12:05:31 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 7482.68it/s]
+2020-04-21 12:05:31 - extract - INFO : crypto - Initiating Extract
+2020-04-21 12:05:31 - extract - INFO : crypto extracted successfully
+2020-04-21 12:05:31 - transform - INFO : crypto - Initiating Transorm
+2020-04-21 12:05:31 - transform - INFO : crypto transformed successfully
+2020-04-21 12:05:31 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-21 12:05:31 - load - INFO : Inserting 1587 rows into crypto
+2020-04-21 12:05:31 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 6830.68it/s]
+2020-04-21 12:05:31 - load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 4964.43it/s]
+2020-04-21 12:05:31 - load - INFO : 1738it [00:00, 5230.51it/s]
+2020-04-21 12:05:31 - load - INFO : crypto - Insert completed successfully in 0.3256049156188965 seconds
+2020-04-21 12:05:31 - load - INFO : 1738it [00:00, 5321.47it/s]
+2020-04-21 12:05:31 - extract - INFO : webpharm - Initiating Extract
+2020-04-21 12:05:32 - extract - INFO : webpharm extracted successfully
+2020-04-21 12:05:32 - transform - INFO : webpharm - Initiating Transorm
+2020-04-21 12:05:32 - transform - INFO : webpharm transformed successfully
+2020-04-21 12:05:32 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 12:05:32 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-21 12:05:32 - load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 4271.05it/s]
+2020-04-21 12:05:32 - load - INFO : webpharm - Insert completed successfully in 0.19607925415039062 seconds
+2020-04-21 12:05:32 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5074.16it/s]
+2020-04-21 12:16:56 - __main__ - INFO : ======== 12:16:56 ETL Process Initiated ========
+2020-04-21 12:16:56 - load - INFO : Attempting to connect
+2020-04-21 12:16:56 - load - INFO : Connection successfull
+2020-04-21 12:16:56 - extract - INFO : campaigns - Initiating Extract
+2020-04-21 12:16:56 - extract - INFO : campaigns extracted successfully
+2020-04-21 12:16:56 - transform - INFO : campaigns - Initiating Transorm
+2020-04-21 12:16:56 - transform - INFO : campaigns transformed successfully
+2020-04-21 12:16:56 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 12:16:56 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-21 12:16:56 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 795.77it/s]
+2020-04-21 12:16:56 - load - INFO : campaigns - Insert completed successfully in 0.2234032154083252 seconds
+2020-04-21 12:16:56 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4476.21it/s]
+2020-04-21 12:16:56 - extract - INFO : crypto - Initiating Extract
+2020-04-21 12:16:56 - extract - INFO : crypto extracted successfully
+2020-04-21 12:16:56 - transform - INFO : crypto - Initiating Transorm
+2020-04-21 12:16:56 - transform - INFO : crypto transformed successfully
+2020-04-21 12:16:56 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-21 12:16:56 - load - INFO : Inserting 1587 rows into crypto
+2020-04-21 12:16:56 - load - INFO : 30%|##9       | 474/1587 [00:00<00:00, 3546.78it/s]
+2020-04-21 12:16:56 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 2624.34it/s]
+2020-04-21 12:16:56 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 2925.26it/s]
+2020-04-21 12:16:56 - load - INFO : crypto - Insert completed successfully in 0.507643461227417 seconds
+2020-04-21 12:16:56 - load - INFO : 1738it [00:00, 3423.66it/s]
+2020-04-21 12:16:56 - extract - INFO : webpharm - Initiating Extract
+2020-04-21 12:16:57 - extract - INFO : webpharm extracted successfully
+2020-04-21 12:16:57 - transform - INFO : webpharm - Initiating Transorm
+2020-04-21 12:16:57 - transform - INFO : webpharm transformed successfully
+2020-04-21 12:16:57 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 12:16:57 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-21 12:16:57 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 8795.45it/s]
+2020-04-21 12:16:57 - load - INFO : webpharm - Insert completed successfully in 0.11369514465332031 seconds
+2020-04-21 12:16:57 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 8718.97it/s]
+2020-04-21 12:17:01 - __main__ - INFO : ======== 12:17:01 ETL Process Initiated ========
+2020-04-21 12:17:01 - load - INFO : Attempting to connect
+2020-04-21 12:17:01 - load - INFO : Connection successfull
+2020-04-21 12:17:01 - extract - INFO : campaigns - Initiating Extract
+2020-04-21 12:17:01 - extract - INFO : campaigns extracted successfully
+2020-04-21 12:17:01 - transform - INFO : campaigns - Initiating Transorm
+2020-04-21 12:17:01 - transform - INFO : campaigns transformed successfully
+2020-04-21 12:17:01 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 12:17:01 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-21 12:17:01 - load - INFO : 40%|####      | 400/1000 [00:00<00:00, 3713.62it/s]
+2020-04-21 12:17:01 - load - INFO : campaigns - Insert completed successfully in 0.15259194374084473 seconds
+2020-04-21 12:17:01 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6553.43it/s]
+2020-04-21 12:17:01 - extract - INFO : crypto - Initiating Extract
+2020-04-21 12:17:01 - extract - INFO : crypto extracted successfully
+2020-04-21 12:17:01 - transform - INFO : crypto - Initiating Transorm
+2020-04-21 12:17:01 - transform - INFO : crypto transformed successfully
+2020-04-21 12:17:01 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-21 12:17:01 - load - INFO : Inserting 1587 rows into crypto
+2020-04-21 12:17:01 - load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 10663.13it/s]
+2020-04-21 12:17:01 - load - INFO : crypto - Insert completed successfully in 0.14760518074035645 seconds
+2020-04-21 12:17:01 - load - INFO : 1738it [00:00, 11695.63it/s]
+2020-04-21 12:17:01 - extract - INFO : webpharm - Initiating Extract
+2020-04-21 12:17:02 - extract - INFO : webpharm extracted successfully
+2020-04-21 12:17:02 - transform - INFO : webpharm - Initiating Transorm
+2020-04-21 12:17:02 - transform - INFO : webpharm transformed successfully
+2020-04-21 12:17:02 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 12:17:02 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-21 12:17:02 - load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5098.31it/s]
+2020-04-21 12:17:02 - load - INFO : webpharm - Insert completed successfully in 0.18351030349731445 seconds
+2020-04-21 12:17:02 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5449.29it/s]
+2020-04-21 13:00:55 - __main__ - INFO : ======== 13:00:55 ETL Process Initiated ========
+2020-04-21 13:00:55 - load - INFO : Attempting to connect
+2020-04-21 13:00:56 - load - INFO : Connection successfull
+2020-04-21 13:01:23 - __main__ - INFO : ======== 13:01:23 ETL Process Initiated ========
+2020-04-21 13:01:23 - load - INFO : Attempting to connect
+2020-04-21 13:01:23 - load - INFO : Connection successfull
+2020-04-21 13:01:23 - extract - INFO : campaigns - Initiating Extract
+2020-04-21 13:01:23 - extract - INFO : campaigns extracted successfully
+2020-04-21 13:01:23 - transform - INFO : campaigns - Initiating Transorm
+2020-04-21 13:01:23 - transform - INFO : campaigns transformed successfully
+2020-04-21 13:01:59 - __main__ - INFO : ======== 13:01:59 ETL Process Initiated ========
+2020-04-21 13:01:59 - load - INFO : Attempting to connect
+2020-04-21 13:01:59 - load - INFO : Connection successfull
+2020-04-21 13:01:59 - extract - INFO : campaigns - Initiating Extract
+2020-04-21 13:01:59 - extract - INFO : campaigns extracted successfully
+2020-04-21 13:01:59 - transform - INFO : campaigns - Initiating Transorm
+2020-04-21 13:01:59 - transform - INFO : campaigns transformed successfully
+2020-04-21 13:01:59 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 13:01:59 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-21 13:01:59 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 911.52it/s]
+2020-04-21 13:01:59 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 1241.13it/s]
+2020-04-21 13:01:59 - load - INFO : campaigns - Insert completed successfully in 0.223402738571167 seconds
+2020-04-21 13:01:59 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4476.22it/s]
+2020-04-21 13:01:59 - extract - INFO : crypto - Initiating Extract
+2020-04-21 13:01:59 - extract - INFO : crypto extracted successfully
+2020-04-21 13:01:59 - transform - INFO : crypto - Initiating Transorm
+2020-04-21 13:01:59 - transform - INFO : crypto transformed successfully
+2020-04-21 13:01:59 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-21 13:01:59 - load - INFO : Inserting 1587 rows into crypto
+2020-04-21 13:01:59 - load - INFO : 60%|#####9    | 948/1587 [00:00<00:00, 9319.10it/s]
+2020-04-21 13:01:59 - load - INFO : crypto - Insert completed successfully in 0.16555571556091309 seconds
+2020-04-21 13:01:59 - load - INFO : 1738it [00:00, 10497.98it/s]
+2020-04-21 13:01:59 - extract - INFO : webpharm - Initiating Extract
+2020-04-21 13:02:00 - extract - INFO : webpharm extracted successfully
+2020-04-21 13:02:00 - transform - INFO : webpharm - Initiating Transorm
+2020-04-21 13:02:00 - transform - INFO : webpharm transformed successfully
+2020-04-21 13:02:00 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-21 13:02:00 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-21 13:02:00 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 6266.74it/s]
+2020-04-21 13:02:00 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4456.33it/s]
+2020-04-21 13:02:00 - load - INFO : webpharm - Insert completed successfully in 0.22539782524108887 seconds
+2020-04-21 13:02:00 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4436.60it/s]
+2020-04-22 09:33:24 - __main__ - INFO : ======== 09:33:24 ETL Process Initiated ========
+2020-04-22 09:33:24 - load - INFO : Attempting to connect
+2020-04-22 09:33:24 - load - INFO : Connection successfull
+2020-04-22 09:33:24 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:33:24 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:33:24 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:33:24 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:33:24 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:33:24 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:33:25 - load - INFO : 10%|#         | 100/1000 [00:00<00:02, 345.77it/s]
+2020-04-22 09:33:25 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 483.94it/s]
+2020-04-22 09:33:25 - load - INFO : campaigns - Insert completed successfully in 0.4088895320892334 seconds
+2020-04-22 09:33:25 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2439.70it/s]
+2020-04-22 09:33:25 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:33:25 - extract - INFO : crypto extracted successfully
+2020-04-22 09:33:25 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:33:25 - transform - INFO : crypto transformed successfully
+2020-04-22 09:33:25 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:33:25 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:33:25 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 13037.69it/s]
+2020-04-22 09:33:25 - load - INFO : crypto - Insert completed successfully in 0.13001251220703125 seconds
+2020-04-22 09:33:25 - load - INFO : 1738it [00:00, 13367.94it/s]
+2020-04-22 09:33:25 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:33:25 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:33:25 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:33:25 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:33:25 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:36:16 - __main__ - INFO : ======== 09:36:16 ETL Process Initiated ========
+2020-04-22 09:36:16 - load - INFO : Attempting to connect
+2020-04-22 09:36:16 - load - INFO : Connection successfull
+2020-04-22 09:36:16 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:36:16 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:36:16 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:36:16 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:36:16 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:36:16 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:36:16 - load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 4728.51it/s]
+2020-04-22 09:36:16 - load - INFO : campaigns - Insert completed successfully in 0.13965177536010742 seconds
+2020-04-22 09:36:16 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 7160.67it/s]
+2020-04-22 09:36:16 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:36:16 - extract - INFO : crypto extracted successfully
+2020-04-22 09:36:16 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:36:16 - transform - INFO : crypto transformed successfully
+2020-04-22 09:36:16 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:36:16 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:36:17 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 13442.83it/s]
+2020-04-22 09:36:17 - load - INFO : crypto - Insert completed successfully in 0.12273716926574707 seconds
+2020-04-22 09:36:17 - load - INFO : 1738it [00:00, 14160.34it/s]
+2020-04-22 09:36:17 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:36:17 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:36:17 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:36:17 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:36:17 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:38:53 - __main__ - INFO : ======== 09:38:53 ETL Process Initiated ========
+2020-04-22 09:38:53 - load - INFO : Attempting to connect
+2020-04-22 09:38:53 - load - INFO : Connection successfull
+2020-04-22 09:38:53 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:38:53 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:38:53 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:38:53 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:38:53 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:38:53 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:38:53 - load - INFO : 40%|####      | 400/1000 [00:00<00:00, 3932.01it/s]
+2020-04-22 09:38:53 - load - INFO : campaigns - Insert completed successfully in 0.1406245231628418 seconds
+2020-04-22 09:38:53 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 7111.14it/s]
+2020-04-22 09:38:53 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:38:53 - extract - INFO : crypto extracted successfully
+2020-04-22 09:38:53 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:38:53 - transform - INFO : crypto transformed successfully
+2020-04-22 09:38:53 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:38:53 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:38:53 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 11418.06it/s]
+2020-04-22 09:38:53 - load - INFO : crypto - Insert completed successfully in 0.14760279655456543 seconds
+2020-04-22 09:38:53 - load - INFO : 1738it [00:00, 11695.78it/s]
+2020-04-22 09:38:53 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:38:53 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:38:53 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:38:53 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:38:53 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:39:19 - __main__ - INFO : ======== 09:39:19 ETL Process Initiated ========
+2020-04-22 09:39:19 - load - INFO : Attempting to connect
+2020-04-22 09:39:19 - load - INFO : Connection successfull
+2020-04-22 09:39:19 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:39:19 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:39:19 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:39:19 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:39:19 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:39:19 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:39:19 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 983.03it/s]
+2020-04-22 09:39:19 - load - INFO : campaigns - Insert completed successfully in 0.1825110912322998 seconds
+2020-04-22 09:39:19 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5449.36it/s]
+2020-04-22 09:39:19 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:39:19 - extract - INFO : crypto extracted successfully
+2020-04-22 09:39:19 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:39:19 - transform - INFO : crypto transformed successfully
+2020-04-22 09:39:19 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:39:19 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:39:19 - load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 6093.12it/s]
+2020-04-22 09:39:19 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 6505.78it/s]
+2020-04-22 09:39:19 - load - INFO : crypto - Insert completed successfully in 0.23588347434997559 seconds
+2020-04-22 09:39:19 - load - INFO : 1738it [00:00, 7368.04it/s]
+2020-04-22 09:39:19 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:39:19 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:39:19 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:39:19 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:39:19 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:40:41 - __main__ - INFO : ======== 09:40:41 ETL Process Initiated ========
+2020-04-22 09:40:41 - load - INFO : Attempting to connect
+2020-04-22 09:40:41 - load - INFO : Connection successfull
+2020-04-22 09:40:41 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:40:41 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:40:41 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:40:41 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:40:41 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:40:41 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:40:41 - load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 4932.05it/s]
+2020-04-22 09:40:41 - load - INFO : campaigns - Insert completed successfully in 0.13622546195983887 seconds
+2020-04-22 09:40:41 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 7287.34it/s]
+2020-04-22 09:40:41 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:40:41 - extract - INFO : crypto extracted successfully
+2020-04-22 09:40:41 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:40:41 - transform - INFO : crypto transformed successfully
+2020-04-22 09:40:41 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:40:41 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:40:41 - load - INFO : 20%|#9        | 316/1587 [00:00<00:00, 2544.73it/s]
+2020-04-22 09:40:41 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 2770.66it/s]
+2020-04-22 09:40:42 - load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 2589.65it/s]
+2020-04-22 09:40:42 - load - INFO : 1738it [00:00, 3117.88it/s]
+2020-04-22 09:40:42 - load - INFO : crypto - Insert completed successfully in 0.5066666603088379 seconds
+2020-04-22 09:40:42 - load - INFO : 1738it [00:00, 3423.53it/s]
+2020-04-22 09:40:42 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:40:42 - extract - INFO : webpharm - go ! 
+2020-04-22 09:40:42 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:40:42 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:40:42 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:40:42 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:41:15 - __main__ - INFO : ======== 09:41:15 ETL Process Initiated ========
+2020-04-22 09:41:15 - load - INFO : Attempting to connect
+2020-04-22 09:41:15 - load - INFO : Connection successfull
+2020-04-22 09:41:15 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:41:15 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:41:15 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:41:15 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:41:15 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:41:15 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:41:15 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 838.88it/s]
+2020-04-22 09:41:15 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 1152.04it/s]
+2020-04-22 09:41:15 - load - INFO : campaigns - Insert completed successfully in 0.21993732452392578 seconds
+2020-04-22 09:41:15 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4546.75it/s]
+2020-04-22 09:41:15 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:41:15 - extract - INFO : crypto extracted successfully
+2020-04-22 09:41:15 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:41:15 - transform - INFO : crypto transformed successfully
+2020-04-22 09:41:15 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:41:15 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:41:15 - load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5786.55it/s]
+2020-04-22 09:41:15 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 5834.41it/s]
+2020-04-22 09:41:15 - load - INFO : 100%|#########9| 1580/1587 [00:00<00:00, 4263.58it/s]
+2020-04-22 09:41:15 - load - INFO : crypto - Insert completed successfully in 0.36704540252685547 seconds
+2020-04-22 09:41:15 - load - INFO : 1738it [00:00, 4735.11it/s]
+2020-04-22 09:41:15 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:41:15 - extract - INFO : webpharm - go ! 
+2020-04-22 09:41:15 - extract - INFO : 0
+2020-04-22 09:41:15 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:41:15 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:41:15 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:41:15 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:42:44 - __main__ - INFO : ======== 09:42:44 ETL Process Initiated ========
+2020-04-22 09:42:44 - load - INFO : Attempting to connect
+2020-04-22 09:42:44 - load - INFO : Connection successfull
+2020-04-22 09:42:44 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:42:44 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:42:44 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:42:44 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:42:44 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:42:44 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:42:45 - load - INFO : 10%|#         | 100/1000 [00:00<00:02, 375.96it/s]
+2020-04-22 09:42:45 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 525.54it/s]
+2020-04-22 09:42:45 - load - INFO : campaigns - Insert completed successfully in 0.38698887825012207 seconds
+2020-04-22 09:42:45 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2584.05it/s]
+2020-04-22 09:42:45 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:42:45 - extract - INFO : crypto extracted successfully
+2020-04-22 09:42:45 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:42:45 - transform - INFO : crypto transformed successfully
+2020-04-22 09:42:45 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:42:45 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:42:45 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 7705.80it/s]
+2020-04-22 09:42:45 - load - INFO : 100%|#########9| 1580/1587 [00:00<00:00, 7497.46it/s]
+2020-04-22 09:42:45 - load - INFO : crypto - Insert completed successfully in 0.22653627395629883 seconds
+2020-04-22 09:42:45 - load - INFO : 1738it [00:00, 7638.43it/s]
+2020-04-22 09:42:45 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:42:45 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:42:45 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:42:45 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:42:45 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:44:29 - __main__ - INFO : ======== 09:44:29 ETL Process Initiated ========
+2020-04-22 09:44:29 - load - INFO : Attempting to connect
+2020-04-22 09:44:29 - load - INFO : Connection successfull
+2020-04-22 09:44:29 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:44:29 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:44:29 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:44:29 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:44:29 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:44:29 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:44:30 - load - INFO : 10%|#         | 100/1000 [00:00<00:02, 418.64it/s]
+2020-04-22 09:44:30 - load - INFO : 30%|###       | 300/1000 [00:00<00:01, 536.54it/s]
+2020-04-22 09:44:30 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 740.46it/s]
+2020-04-22 09:44:30 - load - INFO : campaigns - Insert completed successfully in 0.47418856620788574 seconds
+2020-04-22 09:44:30 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2108.87it/s]
+2020-04-22 09:44:30 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:44:30 - extract - INFO : crypto extracted successfully
+2020-04-22 09:44:30 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:44:30 - transform - INFO : crypto transformed successfully
+2020-04-22 09:44:30 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:44:30 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:44:30 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 4907.41it/s]
+2020-04-22 09:44:30 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 4855.95it/s]
+2020-04-22 09:44:30 - load - INFO : crypto - Insert completed successfully in 0.31650400161743164 seconds
+2020-04-22 09:44:30 - load - INFO : 1738it [00:00, 5491.24it/s]
+2020-04-22 09:44:30 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:44:30 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 09:44:30 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:44:30 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:44:30 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:45:00 - __main__ - INFO : ======== 09:45:00 ETL Process Initiated ========
+2020-04-22 09:45:00 - load - INFO : Attempting to connect
+2020-04-22 09:45:00 - load - INFO : Connection successfull
+2020-04-22 09:45:00 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:45:00 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:45:00 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:45:00 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:45:00 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:45:00 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:45:00 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 600.40it/s]
+2020-04-22 09:45:00 - load - INFO : campaigns - Insert completed successfully in 0.2513289451599121 seconds
+2020-04-22 09:45:00 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3978.85it/s]
+2020-04-22 09:45:00 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:45:00 - extract - INFO : crypto extracted successfully
+2020-04-22 09:45:00 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:45:00 - transform - INFO : crypto transformed successfully
+2020-04-22 09:45:00 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:45:00 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:45:00 - load - INFO : 60%|#####9    | 948/1587 [00:00<00:00, 8801.25it/s]
+2020-04-22 09:45:00 - load - INFO : 1738it [00:00, 8462.72it/s]
+2020-04-22 09:45:00 - load - INFO : crypto - Insert completed successfully in 0.2094404697418213 seconds
+2020-04-22 09:45:00 - load - INFO : 1738it [00:00, 8298.30it/s]
+2020-04-22 09:45:00 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:45:00 - extract - INFO : No excel files found on data/excel/webpharm/
+2020-04-22 09:45:00 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 09:45:00 - transform - INFO : webpharm transformed successfully
+2020-04-22 09:45:00 - load - ERROR : Unable to process datafile - not a DataFrame
+2020-04-22 09:45:52 - __main__ - INFO : ======== 09:45:52 ETL Process Initiated ========
+2020-04-22 09:45:52 - load - INFO : Attempting to connect
+2020-04-22 09:45:52 - load - INFO : Connection successfull
+2020-04-22 09:45:52 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 09:45:52 - extract - INFO : campaigns extracted successfully
+2020-04-22 09:45:52 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 09:45:52 - transform - INFO : campaigns transformed successfully
+2020-04-22 09:45:52 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 09:45:52 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 09:45:52 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 895.25it/s]
+2020-04-22 09:45:52 - load - INFO : campaigns - Insert completed successfully in 0.1904900074005127 seconds
+2020-04-22 09:45:52 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5249.62it/s]
+2020-04-22 09:45:52 - extract - INFO : crypto - Initiating Extract
+2020-04-22 09:45:52 - extract - INFO : crypto extracted successfully
+2020-04-22 09:45:52 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 09:45:52 - transform - INFO : crypto transformed successfully
+2020-04-22 09:45:52 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 09:45:52 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 09:45:52 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 13451.04it/s]
+2020-04-22 09:45:52 - load - INFO : crypto - Insert completed successfully in 0.12327766418457031 seconds
+2020-04-22 09:45:52 - load - INFO : 1738it [00:00, 14098.26it/s]
+2020-04-22 09:45:52 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 09:45:52 - extract - INFO : No excel files found on data/excel/webpharm/
+2020-04-22 10:02:21 - __main__ - INFO : ======== 22/04/2020 10:02:21 ETL Process Initiated ========
+2020-04-22 10:02:21 - load - INFO : Attempting to connect
+2020-04-22 10:02:21 - load - INFO : Connection successfull
+2020-04-22 10:02:21 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:02:21 - extract - INFO : No csv files found on data/csv/campaigns
+2020-04-22 10:02:21 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:02:21 - extract - INFO : No csv files found on data/csv/crypto
+2020-04-22 10:02:21 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:02:21 - extract - INFO : No excel files found on data/excel/webpharm/
+2020-04-22 10:11:39 - __main__ - INFO : ======== 22/04/2020 10:11:39 ETL Process Initiated ========
+2020-04-22 10:11:39 - load - INFO : Attempting to connect
+2020-04-22 10:11:39 - load - INFO : Connection successfull
+2020-04-22 10:11:39 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:11:39 - extract - INFO : No csv files found on data/csv/campaigns
+2020-04-22 10:11:39 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:11:39 - extract - INFO : No csv files found on data/csv/crypto
+2020-04-22 10:15:00 - __main__ - INFO : ======== 22/04/2020 10:15:00 ETL Process Initiated ========
+2020-04-22 10:15:00 - load - INFO : Attempting to connect
+2020-04-22 10:15:00 - load - INFO : Connection successfull
+2020-04-22 10:15:00 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:15:00 - extract - INFO : No csv files found on csv/campaigns
+2020-04-22 10:15:00 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:15:00 - extract - INFO : No csv files found on csv/crypto
+2020-04-22 10:15:28 - __main__ - INFO : ======== 22/04/2020 10:15:28 ETL Process Initiated ========
+2020-04-22 10:15:28 - load - INFO : Attempting to connect
+2020-04-22 10:15:28 - load - INFO : Connection successfull
+2020-04-22 10:15:28 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:15:28 - extract - INFO : data/22_04_2020/csv/campaigns/*.csv"
+2020-04-22 10:15:28 - extract - INFO : No csv files found on csv/campaigns
+2020-04-22 10:15:28 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:15:28 - extract - INFO : data/22_04_2020/csv/crypto/*.csv"
+2020-04-22 10:15:28 - extract - INFO : No csv files found on csv/crypto
+2020-04-22 10:16:43 - __main__ - INFO : ======== 22/04/2020 10:16:43 ETL Process Initiated ========
+2020-04-22 10:16:43 - load - INFO : Attempting to connect
+2020-04-22 10:16:43 - load - INFO : Connection successfull
+2020-04-22 10:16:43 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:16:43 - extract - INFO : data/22_04_2020/csv/campaigns/*.csv
+2020-04-22 10:16:43 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:16:43 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:16:43 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:16:43 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:16:43 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:16:43 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 973.47it/s]
+2020-04-22 10:16:43 - load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 1252.57it/s]
+2020-04-22 10:16:43 - load - INFO : campaigns - Insert completed successfully in 0.2732698917388916 seconds
+2020-04-22 10:16:43 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3659.39it/s]
+2020-04-22 10:16:43 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:16:43 - extract - INFO : data/22_04_2020/csv/crypto/*.csv
+2020-04-22 10:16:43 - extract - INFO : crypto extracted successfully
+2020-04-22 10:16:43 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:16:43 - transform - INFO : crypto transformed successfully
+2020-04-22 10:16:43 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:16:43 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:16:43 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 5781.87it/s]
+2020-04-22 10:16:44 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 5682.31it/s]
+2020-04-22 10:16:44 - load - INFO : crypto - Insert completed successfully in 0.28523707389831543 seconds
+2020-04-22 10:16:44 - load - INFO : 1738it [00:00, 6093.18it/s]
+2020-04-22 10:22:35 - __main__ - INFO : ======== 22/04/2020 10:22:35 ETL Process Initiated ========
+2020-04-22 10:22:35 - load - INFO : Attempting to connect
+2020-04-22 10:22:35 - load - INFO : Connection successfull
+2020-04-22 10:22:35 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:22:35 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:22:35 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:22:35 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:22:35 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:22:35 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:22:35 - load - INFO : 20%|##        | 200/1000 [00:00<00:00, 1874.14it/s]
+2020-04-22 10:22:35 - load - INFO : campaigns - Insert completed successfully in 0.18351006507873535 seconds
+2020-04-22 10:22:35 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5419.83it/s]
+2020-04-22 10:22:35 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:22:35 - extract - INFO : crypto extracted successfully
+2020-04-22 10:22:35 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:22:35 - transform - INFO : crypto transformed successfully
+2020-04-22 10:22:35 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:22:35 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:22:36 - load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 9089.79it/s]
+2020-04-22 10:22:36 - load - INFO : crypto - Insert completed successfully in 0.20046544075012207 seconds
+2020-04-22 10:22:36 - load - INFO : 1738it [00:00, 8626.93it/s]
+2020-04-22 10:22:36 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:22:36 - extract - ERROR : Unable to load webpharm
+'webpharm'
+2020-04-22 10:23:26 - __main__ - INFO : ======== 22/04/2020 10:23:26 ETL Process Initiated ========
+2020-04-22 10:23:26 - load - INFO : Attempting to connect
+2020-04-22 10:23:26 - load - INFO : Connection successfull
+2020-04-22 10:23:26 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:23:26 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:23:26 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:23:26 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:23:26 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:23:26 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:23:26 - load - INFO : 30%|###       | 300/1000 [00:00<00:00, 2892.32it/s]
+2020-04-22 10:23:26 - load - INFO : campaigns - Insert completed successfully in 0.14960622787475586 seconds
+2020-04-22 10:23:26 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6684.21it/s]
+2020-04-22 10:23:26 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:23:26 - extract - INFO : crypto extracted successfully
+2020-04-22 10:23:26 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:23:26 - transform - INFO : crypto transformed successfully
+2020-04-22 10:23:26 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:23:26 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:23:26 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 13712.33it/s]
+2020-04-22 10:23:26 - load - INFO : crypto - Insert completed successfully in 0.12265276908874512 seconds
+2020-04-22 10:23:26 - load - INFO : 1738it [00:00, 14055.82it/s]
+2020-04-22 10:23:26 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:23:26 - extract - INFO : No excel files found on data/22_04_2020/excel/webpharm//*.csv
+2020-04-22 10:24:16 - __main__ - INFO : ======== 22/04/2020 10:24:16 ETL Process Initiated ========
+2020-04-22 10:24:16 - load - INFO : Attempting to connect
+2020-04-22 10:24:16 - load - INFO : Connection successfull
+2020-04-22 10:24:16 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:24:16 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:24:16 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:24:16 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:24:16 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:24:16 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:24:16 - load - INFO : 40%|####      | 400/1000 [00:00<00:00, 3790.68it/s]
+2020-04-22 10:24:16 - load - INFO : campaigns - Insert completed successfully in 0.14521265029907227 seconds
+2020-04-22 10:24:16 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6886.45it/s]
+2020-04-22 10:24:16 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:24:16 - extract - INFO : crypto extracted successfully
+2020-04-22 10:24:16 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:24:16 - transform - INFO : crypto transformed successfully
+2020-04-22 10:24:16 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:24:16 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:24:17 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 12300.21it/s]
+2020-04-22 10:24:17 - load - INFO : crypto - Insert completed successfully in 0.1346743106842041 seconds
+2020-04-22 10:24:17 - load - INFO : 1738it [00:00, 12905.21it/s]
+2020-04-22 10:24:17 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:24:17 - extract - INFO : webpharm extracted successfully
+2020-04-22 10:24:17 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 10:24:17 - transform - INFO : webpharm transformed successfully
+2020-04-22 10:24:17 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:24:17 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 10:24:17 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 8761.44it/s]
+2020-04-22 10:24:17 - load - INFO : webpharm - Insert completed successfully in 0.1136937141418457 seconds
+2020-04-22 10:24:17 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 8719.04it/s]
+2020-04-22 10:41:42 - __main__ - INFO : ======== Executing Daily Process ========")
+2020-04-22 10:41:42 - engine - INFO : ======== 22/04/2020 10:41:42 ETL Process Initiated ========
+2020-04-22 10:41:42 - load - INFO : Attempting to connect
+2020-04-22 10:41:42 - load - INFO : Connection successfull
+2020-04-22 10:41:42 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:41:42 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:41:42 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:41:42 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:41:42 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:41:42 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:41:42 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 701.17it/s]
+2020-04-22 10:41:42 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 964.80it/s]
+2020-04-22 10:41:42 - load - INFO : campaigns - Insert completed successfully in 0.2563152313232422 seconds
+2020-04-22 10:41:42 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3901.45it/s]
+2020-04-22 10:41:42 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:41:42 - extract - INFO : crypto extracted successfully
+2020-04-22 10:41:42 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:41:42 - transform - INFO : crypto transformed successfully
+2020-04-22 10:41:42 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:41:42 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:41:42 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 6188.39it/s]
+2020-04-22 10:41:43 - load - INFO : crypto - Insert completed successfully in 0.20545125007629395 seconds
+2020-04-22 10:41:43 - load - INFO : 1738it [00:00, 8418.60it/s]
+2020-04-22 10:41:43 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:41:43 - extract - INFO : webpharm extracted successfully
+2020-04-22 10:41:43 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 10:41:43 - transform - INFO : webpharm transformed successfully
+2020-04-22 10:41:43 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:41:43 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 10:41:43 - load - INFO : webpharm - Insert completed successfully in 0.0977468490600586 seconds
+2020-04-22 10:41:43 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 10128.06it/s]
+2020-04-22 10:43:25 - __main__ - INFO : ======== Executing Daily Process ========)
+2020-04-22 10:43:25 - engine - INFO : ======== ETL Process Initiated ========
+2020-04-22 10:43:25 - load - INFO : Attempting to connect
+2020-04-22 10:43:25 - load - INFO : Connection successfull
+2020-04-22 10:43:25 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:43:25 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:43:25 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:43:25 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:43:25 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:43:25 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:43:25 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 584.84it/s]
+2020-04-22 10:43:25 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 800.35it/s]
+2020-04-22 10:43:26 - load - INFO : campaigns - Insert completed successfully in 0.3329954147338867 seconds
+2020-04-22 10:43:26 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3003.04it/s]
+2020-04-22 10:43:26 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:43:26 - extract - INFO : crypto extracted successfully
+2020-04-22 10:43:26 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:43:26 - transform - INFO : crypto transformed successfully
+2020-04-22 10:43:26 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:43:26 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:43:26 - load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5221.82it/s]
+2020-04-22 10:43:26 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 5624.72it/s]
+2020-04-22 10:43:26 - load - INFO : crypto - Insert completed successfully in 0.27010393142700195 seconds
+2020-04-22 10:43:26 - load - INFO : 1738it [00:00, 6434.56it/s]
+2020-04-22 10:43:26 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:43:26 - extract - INFO : webpharm extracted successfully
+2020-04-22 10:43:26 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 10:43:26 - transform - INFO : webpharm transformed successfully
+2020-04-22 10:43:26 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:43:26 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 10:43:26 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 6489.60it/s]
+2020-04-22 10:43:26 - load - INFO : webpharm - Insert completed successfully in 0.15325689315795898 seconds
+2020-04-22 10:43:26 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6482.83it/s]
+2020-04-22 10:44:45 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 10:44:45 - engine - INFO : ======== ETL Process for 22_04_2020 Initiated ========
+2020-04-22 10:44:45 - load - INFO : Attempting to connect
+2020-04-22 10:44:45 - load - INFO : Connection successfull
+2020-04-22 10:44:45 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 10:44:45 - extract - INFO : campaigns extracted successfully
+2020-04-22 10:44:45 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 10:44:45 - transform - INFO : campaigns transformed successfully
+2020-04-22 10:44:45 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:44:45 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 10:44:45 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 864.38it/s]
+2020-04-22 10:44:45 - load - INFO : campaigns - Insert completed successfully in 0.21442699432373047 seconds
+2020-04-22 10:44:45 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4663.59it/s]
+2020-04-22 10:44:45 - extract - INFO : crypto - Initiating Extract
+2020-04-22 10:44:45 - extract - INFO : crypto extracted successfully
+2020-04-22 10:44:45 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 10:44:45 - transform - INFO : crypto transformed successfully
+2020-04-22 10:44:45 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 10:44:45 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 10:44:45 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 7267.23it/s]
+2020-04-22 10:44:45 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 6937.78it/s]
+2020-04-22 10:44:45 - load - INFO : crypto - Insert completed successfully in 0.2478632926940918 seconds
+2020-04-22 10:44:45 - load - INFO : 1738it [00:00, 6997.21it/s]
+2020-04-22 10:44:45 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 10:44:46 - extract - INFO : webpharm extracted successfully
+2020-04-22 10:44:46 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 10:44:46 - transform - INFO : webpharm transformed successfully
+2020-04-22 10:44:46 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 10:44:46 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 10:44:46 - load - INFO : webpharm - Insert completed successfully in 0.08776235580444336 seconds
+2020-04-22 10:44:46 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 11394.41it/s]
+2020-04-22 11:02:15 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 11:02:15 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 11:02:15 - load - INFO : Attempting to connect
+2020-04-22 11:02:16 - load - INFO : Connection successfull
+2020-04-22 11:02:16 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 11:02:16 - extract - INFO : campaigns extracted successfully
+2020-04-22 11:02:16 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 11:02:16 - transform - INFO : campaigns transformed successfully
+2020-04-22 11:02:16 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:02:16 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 11:02:16 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 821.87it/s]
+2020-04-22 11:02:16 - load - INFO : campaigns - Insert completed successfully in 0.20744538307189941 seconds
+2020-04-22 11:02:16 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4797.48it/s]
+2020-04-22 11:02:16 - extract - INFO : crypto - Initiating Extract
+2020-04-22 11:02:16 - extract - INFO : crypto extracted successfully
+2020-04-22 11:02:16 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 11:02:16 - transform - INFO : crypto transformed successfully
+2020-04-22 11:02:16 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 11:02:16 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 11:02:16 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 6770.22it/s]
+2020-04-22 11:02:16 - load - INFO : crypto - Insert completed successfully in 0.21043705940246582 seconds
+2020-04-22 11:02:16 - load - INFO : 1738it [00:00, 8259.00it/s]
+2020-04-22 11:02:16 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 11:02:16 - extract - INFO : webpharm extracted successfully
+2020-04-22 11:02:16 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 11:02:16 - transform - INFO : webpharm transformed successfully
+2020-04-22 11:02:16 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:02:16 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 11:02:16 - load - INFO : webpharm - Insert completed successfully in 0.08884167671203613 seconds
+2020-04-22 11:02:16 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 11130.97it/s]
+2020-04-22 11:02:58 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 11:02:58 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 11:02:58 - load - INFO : Attempting to connect
+2020-04-22 11:02:58 - load - INFO : Connection successfull
+2020-04-22 11:02:58 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 11:02:58 - extract - INFO : campaigns extracted successfully
+2020-04-22 11:02:58 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 11:02:58 - transform - INFO : campaigns transformed successfully
+2020-04-22 11:02:58 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:02:58 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 11:02:58 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 928.40it/s]
+2020-04-22 11:02:59 - load - INFO : campaigns - Insert completed successfully in 0.20046472549438477 seconds
+2020-04-22 11:02:59 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4988.41it/s]
+2020-04-22 11:02:59 - extract - INFO : crypto - Initiating Extract
+2020-04-22 11:02:59 - extract - INFO : crypto extracted successfully
+2020-04-22 11:02:59 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 11:02:59 - transform - INFO : crypto transformed successfully
+2020-04-22 11:02:59 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 11:02:59 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 11:02:59 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 14116.99it/s]
+2020-04-22 11:02:59 - load - INFO : crypto - Insert completed successfully in 0.11768460273742676 seconds
+2020-04-22 11:02:59 - load - INFO : 1738it [00:00, 14768.29it/s]
+2020-04-22 11:02:59 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 11:02:59 - extract - INFO : webpharm extracted successfully
+2020-04-22 11:02:59 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 11:02:59 - transform - INFO : webpharm transformed successfully
+2020-04-22 11:02:59 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:02:59 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 11:02:59 - load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5956.41it/s]
+2020-04-22 11:02:59 - load - INFO : webpharm - Insert completed successfully in 0.16156983375549316 seconds
+2020-04-22 11:02:59 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6151.33it/s]
+2020-04-22 11:05:33 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 11:05:33 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 11:05:33 - load - INFO : Attempting to connect
+2020-04-22 11:05:33 - load - INFO : Connection successfull
+2020-04-22 11:05:33 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 11:05:33 - extract - INFO : campaigns extracted successfully
+2020-04-22 11:05:33 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 11:05:33 - transform - INFO : campaigns transformed successfully
+2020-04-22 11:05:33 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:05:33 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 11:05:33 - load - INFO : 20%|##        | 200/1000 [00:00<00:00, 1948.34it/s]
+2020-04-22 11:05:33 - load - INFO : campaigns - Insert completed successfully in 0.15751862525939941 seconds
+2020-04-22 11:05:33 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6308.51it/s]
+2020-04-22 11:05:33 - extract - INFO : crypto - Initiating Extract
+2020-04-22 11:05:33 - extract - INFO : crypto extracted successfully
+2020-04-22 11:05:33 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 11:05:33 - transform - INFO : crypto transformed successfully
+2020-04-22 11:05:33 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 11:05:33 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 11:05:33 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 12547.63it/s]
+2020-04-22 11:05:33 - load - INFO : crypto - Insert completed successfully in 0.13364553451538086 seconds
+2020-04-22 11:05:33 - load - INFO : 1738it [00:00, 12908.11it/s]
+2020-04-22 11:05:33 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 11:05:33 - extract - INFO : webpharm extracted successfully
+2020-04-22 11:05:33 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 11:05:33 - transform - INFO : webpharm transformed successfully
+2020-04-22 11:05:33 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:05:33 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 11:05:34 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 9436.58it/s]
+2020-04-22 11:05:34 - load - INFO : webpharm - Insert completed successfully in 0.10696744918823242 seconds
+2020-04-22 11:05:34 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 9262.30it/s]
+2020-04-22 11:08:25 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 11:08:25 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 11:08:25 - load - INFO : Attempting to connect
+2020-04-22 11:08:25 - load - INFO : Connection successfull
+2020-04-22 11:08:25 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 11:08:25 - extract - INFO : campaigns extracted successfully
+2020-04-22 11:08:25 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 11:08:25 - transform - INFO : campaigns transformed successfully
+2020-04-22 11:08:25 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:08:25 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 11:08:25 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 895.25it/s]
+2020-04-22 11:08:25 - load - INFO : campaigns - Insert completed successfully in 0.1825110912322998 seconds
+2020-04-22 11:08:25 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5479.12it/s]
+2020-04-22 11:08:25 - extract - INFO : crypto - Initiating Extract
+2020-04-22 11:08:25 - extract - INFO : crypto extracted successfully
+2020-04-22 11:08:25 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 11:08:25 - transform - INFO : crypto transformed successfully
+2020-04-22 11:08:25 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 11:08:25 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 11:08:25 - load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5922.29it/s]
+2020-04-22 11:08:26 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 6023.64it/s]
+2020-04-22 11:08:26 - load - INFO : crypto - Insert completed successfully in 0.30219244956970215 seconds
+2020-04-22 11:08:26 - load - INFO : 1738it [00:00, 5732.36it/s]
+2020-04-22 11:08:26 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 11:08:26 - extract - INFO : webpharm extracted successfully
+2020-04-22 11:08:26 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 11:08:26 - transform - INFO : webpharm transformed successfully
+2020-04-22 11:08:26 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 11:08:26 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 11:08:26 - load - INFO : webpharm - Insert completed successfully in 0.09398102760314941 seconds
+2020-04-22 11:08:26 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 10528.61it/s]
+2020-04-22 13:00:04 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 13:00:04 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 13:00:04 - load - INFO : Attempting to connect
+2020-04-22 13:00:04 - load - INFO : Connection successfull
+2020-04-22 13:00:04 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 13:00:04 - extract - INFO : campaigns extracted successfully
+2020-04-22 13:00:04 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 13:00:04 - transform - INFO : campaigns transformed successfully
+2020-04-22 13:00:04 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 13:00:04 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 13:00:04 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 932.85it/s]
+2020-04-22 13:00:04 - load - INFO : campaigns - Insert completed successfully in 0.20519185066223145 seconds
+2020-04-22 13:00:04 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4850.36it/s]
+2020-04-22 13:00:04 - extract - INFO : crypto - Initiating Extract
+2020-04-22 13:00:04 - extract - INFO : crypto extracted successfully
+2020-04-22 13:00:04 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 13:00:04 - transform - INFO : crypto transformed successfully
+2020-04-22 13:00:04 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 13:00:04 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 13:00:04 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 7212.90it/s]
+2020-04-22 13:00:05 - load - INFO : 1738it [00:00, 7499.29it/s]
+2020-04-22 13:00:05 - load - INFO : crypto - Insert completed successfully in 0.22513914108276367 seconds
+2020-04-22 13:00:05 - load - INFO : 1738it [00:00, 7684.88it/s]
+2020-04-22 13:00:05 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 13:00:05 - extract - INFO : webpharm extracted successfully
+2020-04-22 13:00:05 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 13:00:05 - transform - INFO : webpharm transformed successfully
+2020-04-22 13:00:05 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 13:00:05 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 13:00:05 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 6419.84it/s]
+2020-04-22 13:00:05 - load - INFO : webpharm - Insert completed successfully in 0.1552438735961914 seconds
+2020-04-22 13:00:05 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6400.21it/s]
+2020-04-22 13:00:38 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 13:00:38 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 13:00:38 - load - INFO : Attempting to connect
+2020-04-22 13:00:38 - load - INFO : Connection successfull
+2020-04-22 13:00:38 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 13:00:38 - extract - INFO : campaigns extracted successfully
+2020-04-22 13:00:38 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 13:00:38 - transform - INFO : campaigns transformed successfully
+2020-04-22 13:00:38 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 13:00:38 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 13:00:38 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 908.72it/s]
+2020-04-22 13:00:39 - load - INFO : campaigns - Insert completed successfully in 0.20261359214782715 seconds
+2020-04-22 13:00:39 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4911.35it/s]
+2020-04-22 13:00:39 - extract - INFO : crypto - Initiating Extract
+2020-04-22 13:00:39 - extract - INFO : crypto extracted successfully
+2020-04-22 13:00:39 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 13:00:39 - transform - INFO : crypto transformed successfully
+2020-04-22 13:00:39 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 13:00:39 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 13:00:39 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 7152.59it/s]
+2020-04-22 13:00:39 - load - INFO : 1738it [00:00, 7618.62it/s]
+2020-04-22 13:00:39 - load - INFO : crypto - Insert completed successfully in 0.21696043014526367 seconds
+2020-04-22 13:00:39 - load - INFO : 1738it [00:00, 7974.01it/s]
+2020-04-22 13:00:39 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 13:00:39 - extract - INFO : webpharm extracted successfully
+2020-04-22 13:00:39 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 13:00:39 - transform - INFO : webpharm transformed successfully
+2020-04-22 13:00:39 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 13:00:39 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 13:00:39 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 6798.07it/s]
+2020-04-22 13:00:39 - load - INFO : webpharm - Insert completed successfully in 0.1500566005706787 seconds
+2020-04-22 13:00:39 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6620.09it/s]
+2020-04-22 14:06:45 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 14:06:45 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 14:06:45 - load - INFO : Attempting to connect
+2020-04-22 14:06:45 - load - INFO : Connection successfull
+2020-04-22 14:06:45 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 14:06:45 - extract - INFO : campaigns extracted successfully
+2020-04-22 14:06:45 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 14:06:45 - transform - INFO : campaigns transformed successfully
+2020-04-22 14:06:45 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 14:06:45 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 14:06:45 - load - INFO : 20%|##        | 200/1000 [00:00<00:00, 1966.03it/s]
+2020-04-22 14:06:45 - load - INFO : campaigns - Insert completed successfully in 0.15358972549438477 seconds
+2020-04-22 14:06:45 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6510.85it/s]
+2020-04-22 14:06:45 - extract - INFO : crypto - Initiating Extract
+2020-04-22 14:06:45 - extract - INFO : crypto extracted successfully
+2020-04-22 14:06:45 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 14:06:45 - transform - INFO : crypto transformed successfully
+2020-04-22 14:06:45 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 14:06:45 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 14:06:45 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 11895.61it/s]
+2020-04-22 14:06:45 - load - INFO : crypto - Insert completed successfully in 0.15013957023620605 seconds
+2020-04-22 14:06:45 - load - INFO : 1738it [00:00, 11499.51it/s]
+2020-04-22 14:06:45 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 14:06:45 - extract - INFO : webpharm extracted successfully
+2020-04-22 14:06:45 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 14:06:45 - transform - INFO : webpharm transformed successfully
+2020-04-22 14:06:45 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 14:06:45 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 14:06:45 - load - INFO : webpharm - Insert completed successfully in 0.07878851890563965 seconds
+2020-04-22 14:06:45 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 12533.48it/s]
+2020-04-22 14:07:28 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 14:07:28 - engine - INFO : ======== Initiating ETL Process for 04_02_2020 ========
+2020-04-22 14:07:28 - load - INFO : Attempting to connect
+2020-04-22 14:07:28 - load - INFO : Connection successfull
+2020-04-22 14:07:28 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 14:07:28 - extract - INFO : No csv files found on data/04_02_2020/csv/campaigns/*.csv
+2020-04-22 14:07:28 - extract - INFO : crypto - Initiating Extract
+2020-04-22 14:07:28 - extract - INFO : No csv files found on data/04_02_2020/csv/crypto/*.csv
+2020-04-22 14:07:28 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 14:07:28 - extract - INFO : No excel files found on data/04_02_2020/excel/webpharm/*.xlsx
+2020-04-22 14:07:48 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 14:07:48 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 14:07:48 - load - INFO : Attempting to connect
+2020-04-22 14:07:48 - load - INFO : Connection successfull
+2020-04-22 14:07:48 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 14:07:48 - extract - INFO : campaigns extracted successfully
+2020-04-22 14:07:48 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 14:07:48 - transform - INFO : campaigns transformed successfully
+2020-04-22 14:07:48 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 14:07:48 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 14:07:48 - load - INFO : 20%|##        | 200/1000 [00:00<00:00, 1947.31it/s]
+2020-04-22 14:07:48 - load - INFO : campaigns - Insert completed successfully in 0.15758562088012695 seconds
+2020-04-22 14:07:48 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6345.76it/s]
+2020-04-22 14:07:48 - extract - INFO : crypto - Initiating Extract
+2020-04-22 14:07:48 - extract - INFO : crypto extracted successfully
+2020-04-22 14:07:48 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 14:07:48 - transform - INFO : crypto transformed successfully
+2020-04-22 14:07:48 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 14:07:48 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 14:07:49 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 13325.40it/s]
+2020-04-22 14:07:49 - load - INFO : crypto - Insert completed successfully in 0.12566232681274414 seconds
+2020-04-22 14:07:49 - load - INFO : 1738it [00:00, 13721.76it/s]
+2020-04-22 14:07:49 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 14:07:49 - extract - INFO : webpharm extracted successfully
+2020-04-22 14:07:49 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 14:07:49 - transform - INFO : webpharm transformed successfully
+2020-04-22 14:07:49 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 14:07:49 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 14:07:49 - load - INFO : webpharm - Insert completed successfully in 0.09186053276062012 seconds
+2020-04-22 14:07:49 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 10769.01it/s]
+2020-04-22 14:42:14 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 14:42:14 - engine - INFO : ======== Initiating ETL Process for 22_4_2020 ========
+2020-04-22 14:42:14 - load - INFO : Attempting to connect
+2020-04-22 14:42:14 - load - INFO : Connection successfull
+2020-04-22 14:42:14 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 14:42:14 - extract - INFO : No csv files found on data/22_4_2020/csv/campaigns/*.csv
+2020-04-22 14:42:14 - extract - INFO : crypto - Initiating Extract
+2020-04-22 14:42:14 - extract - INFO : No csv files found on data/22_4_2020/csv/crypto/*.csv
+2020-04-22 14:42:14 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 14:42:14 - extract - INFO : No excel files found on data/22_4_2020/excel/webpharm/*.xlsx
+2020-04-22 15:18:37 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 15:18:37 - engine - INFO : ======== Initiating ETL Process for 2020-04-22 00:00:00 ========
+2020-04-22 15:18:37 - load - INFO : Attempting to connect
+2020-04-22 15:18:37 - load - INFO : Connection successfull
+2020-04-22 15:18:37 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 15:18:37 - extract - INFO : No csv files found on data/2020-04-22 00:00:00/csv/campaigns/*.csv
+2020-04-22 15:18:37 - extract - INFO : crypto - Initiating Extract
+2020-04-22 15:18:37 - extract - INFO : No csv files found on data/2020-04-22 00:00:00/csv/crypto/*.csv
+2020-04-22 15:18:37 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 15:18:37 - extract - INFO : No excel files found on data/2020-04-22 00:00:00/excel/webpharm/*.xlsx
+2020-04-22 15:22:10 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 15:22:10 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 15:22:10 - load - INFO : Attempting to connect
+2020-04-22 15:22:10 - load - INFO : Connection successfull
+2020-04-22 15:22:10 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 15:22:10 - extract - INFO : campaigns extracted successfully
+2020-04-22 15:22:10 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 15:22:10 - transform - INFO : campaigns transformed successfully
+2020-04-22 15:22:10 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 15:22:10 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 15:22:10 - load - INFO : 30%|###       | 300/1000 [00:00<00:00, 2834.78it/s]
+2020-04-22 15:22:10 - load - INFO : campaigns - Insert completed successfully in 0.15644598007202148 seconds
+2020-04-22 15:22:10 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6351.46it/s]
+2020-04-22 15:22:10 - extract - INFO : crypto - Initiating Extract
+2020-04-22 15:22:10 - extract - INFO : crypto extracted successfully
+2020-04-22 15:22:10 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 15:22:10 - transform - INFO : crypto transformed successfully
+2020-04-22 15:22:10 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 15:22:10 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 15:22:10 - load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 12070.30it/s]
+2020-04-22 15:22:10 - load - INFO : crypto - Insert completed successfully in 0.13735103607177734 seconds
+2020-04-22 15:22:10 - load - INFO : 1738it [00:00, 12562.49it/s]
+2020-04-22 15:22:10 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 15:22:11 - extract - INFO : webpharm extracted successfully
+2020-04-22 15:22:11 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 15:22:11 - transform - INFO : webpharm transformed successfully
+2020-04-22 15:22:11 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 15:22:11 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 15:22:11 - load - INFO : webpharm - Insert completed successfully in 0.0905461311340332 seconds
+2020-04-22 15:22:11 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 10923.78it/s]
+2020-04-22 15:22:20 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-22 15:22:20 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-22 15:22:20 - load - INFO : Attempting to connect
+2020-04-22 15:22:20 - load - INFO : Connection successfull
+2020-04-22 15:22:20 - extract - INFO : campaigns - Initiating Extract
+2020-04-22 15:22:20 - extract - INFO : campaigns extracted successfully
+2020-04-22 15:22:20 - transform - INFO : campaigns - Initiating Transorm
+2020-04-22 15:22:20 - transform - INFO : campaigns transformed successfully
+2020-04-22 15:22:20 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 15:22:20 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-22 15:22:20 - load - INFO : 40%|####      | 400/1000 [00:00<00:00, 3753.19it/s]
+2020-04-22 15:22:20 - load - INFO : campaigns - Insert completed successfully in 0.1506962776184082 seconds
+2020-04-22 15:22:20 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6592.42it/s]
+2020-04-22 15:22:20 - extract - INFO : crypto - Initiating Extract
+2020-04-22 15:22:20 - extract - INFO : crypto extracted successfully
+2020-04-22 15:22:20 - transform - INFO : crypto - Initiating Transorm
+2020-04-22 15:22:20 - transform - INFO : crypto transformed successfully
+2020-04-22 15:22:20 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-22 15:22:20 - load - INFO : Inserting 1587 rows into crypto
+2020-04-22 15:22:20 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 13325.57it/s]
+2020-04-22 15:22:20 - load - INFO : crypto - Insert completed successfully in 0.12568140029907227 seconds
+2020-04-22 15:22:20 - load - INFO : 1738it [00:00, 13828.62it/s]
+2020-04-22 15:22:20 - extract - INFO : webpharm - Initiating Extract
+2020-04-22 15:22:21 - extract - INFO : webpharm extracted successfully
+2020-04-22 15:22:21 - transform - INFO : webpharm - Initiating Transorm
+2020-04-22 15:22:21 - transform - INFO : webpharm transformed successfully
+2020-04-22 15:22:21 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-22 15:22:21 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-22 15:22:21 - load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5469.11it/s]
+2020-04-22 15:22:21 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 3453.50it/s]
+2020-04-22 15:22:21 - load - INFO : webpharm - Insert completed successfully in 0.2932169437408447 seconds
+2020-04-22 15:22:21 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3398.89it/s]
+2020-04-23 08:45:58 - __main__ - INFO : ======== Executing Range Process of 22_04_2020 ========
+2020-04-23 08:45:58 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-23 08:45:58 - load - INFO : Attempting to connect
+2020-04-23 08:45:58 - load - INFO : Connection successfull
+2020-04-23 08:45:58 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 08:45:58 - extract - INFO : campaigns extracted successfully
+2020-04-23 08:45:58 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 08:45:58 - transform - INFO : campaigns transformed successfully
+2020-04-23 08:45:58 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:45:58 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 08:45:58 - load - INFO : 10%|#         | 100/1000 [00:00<00:03, 243.93it/s]
+2020-04-23 08:45:58 - load - INFO : campaigns - Insert completed successfully in 0.5032203197479248 seconds
+2020-04-23 08:45:58 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 1982.64it/s]
+2020-04-23 08:45:58 - extract - INFO : crypto - Initiating Extract
+2020-04-23 08:45:58 - extract - INFO : crypto extracted successfully
+2020-04-23 08:45:58 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 08:45:58 - transform - INFO : crypto transformed successfully
+2020-04-23 08:45:59 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 08:45:59 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 08:45:59 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 6066.73it/s]
+2020-04-23 08:45:59 - load - INFO : 100%|#########9| 1580/1587 [00:00<00:00, 6102.78it/s]
+2020-04-23 08:45:59 - load - INFO : crypto - Insert completed successfully in 0.2751162052154541 seconds
+2020-04-23 08:45:59 - load - INFO : 1738it [00:00, 6307.55it/s]
+2020-04-23 08:45:59 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 08:45:59 - extract - INFO : webpharm extracted successfully
+2020-04-23 08:45:59 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 08:45:59 - transform - INFO : webpharm transformed successfully
+2020-04-23 08:45:59 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:45:59 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 08:45:59 - load - INFO : 40%|####      | 400/1000 [00:00<00:00, 3292.72it/s]
+2020-04-23 08:46:00 - load - INFO : 80%|########  | 800/1000 [00:00<00:00, 3261.15it/s]
+2020-04-23 08:46:00 - load - INFO : webpharm - Insert completed successfully in 0.30798792839050293 seconds
+2020-04-23 08:46:00 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3236.11it/s]
+2020-04-23 08:49:30 - __main__ - INFO : ======== Executing Range Process ========
+2020-04-23 08:49:30 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-23 08:49:30 - load - INFO : Attempting to connect
+2020-04-23 08:49:30 - load - INFO : Connection successfull
+2020-04-23 08:49:30 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 08:49:30 - extract - INFO : campaigns extracted successfully
+2020-04-23 08:49:30 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 08:49:30 - transform - INFO : campaigns transformed successfully
+2020-04-23 08:49:30 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:49:30 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 08:49:30 - load - INFO : 10%|#         | 100/1000 [00:00<00:00, 941.28it/s]
+2020-04-23 08:49:30 - load - INFO : campaigns - Insert completed successfully in 0.1883409023284912 seconds
+2020-04-23 08:49:30 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5309.52it/s]
+2020-04-23 08:49:30 - extract - INFO : crypto - Initiating Extract
+2020-04-23 08:49:30 - extract - INFO : crypto extracted successfully
+2020-04-23 08:49:30 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 08:49:30 - transform - INFO : crypto transformed successfully
+2020-04-23 08:49:30 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 08:49:30 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 08:49:30 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 6820.12it/s]
+2020-04-23 08:49:30 - load - INFO : 1738it [00:00, 7395.32it/s]
+2020-04-23 08:49:30 - load - INFO : crypto - Insert completed successfully in 0.22091245651245117 seconds
+2020-04-23 08:49:30 - load - INFO : 1738it [00:00, 7801.29it/s]
+2020-04-23 08:49:30 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 08:49:30 - extract - INFO : webpharm extracted successfully
+2020-04-23 08:49:30 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 08:49:30 - transform - INFO : webpharm transformed successfully
+2020-04-23 08:49:30 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:49:30 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 08:49:31 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 6658.56it/s]
+2020-04-23 08:49:31 - load - INFO : webpharm - Insert completed successfully in 0.17706084251403809 seconds
+2020-04-23 08:49:31 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5616.11it/s]
+2020-04-23 08:49:31 - engine - INFO : ======== Initiating ETL Process for 23_04_2020 ========
+2020-04-23 08:49:31 - load - INFO : Attempting to connect
+2020-04-23 08:49:31 - load - INFO : Connection successfull
+2020-04-23 08:49:31 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 08:49:31 - extract - INFO : campaigns extracted successfully
+2020-04-23 08:49:31 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 08:49:31 - transform - INFO : campaigns transformed successfully
+2020-04-23 08:49:31 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:49:31 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 08:49:31 - load - INFO : 30%|###       | 300/1000 [00:00<00:00, 2144.21it/s]
+2020-04-23 08:49:31 - load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 2064.98it/s]
+2020-04-23 08:49:31 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 1985.27it/s]
+2020-04-23 08:49:31 - load - INFO : campaigns - Insert completed successfully in 0.4340791702270508 seconds
+2020-04-23 08:49:31 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2298.61it/s]
+2020-04-23 08:49:31 - extract - INFO : crypto - Initiating Extract
+2020-04-23 08:49:31 - extract - INFO : crypto extracted successfully
+2020-04-23 08:49:31 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 08:49:31 - transform - INFO : crypto transformed successfully
+2020-04-23 08:49:31 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 08:49:31 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 08:49:31 - load - INFO : 30%|##9       | 474/1587 [00:00<00:00, 3844.04it/s]
+2020-04-23 08:49:31 - load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 4034.83it/s]
+2020-04-23 08:49:31 - load - INFO : crypto - Insert completed successfully in 0.35446643829345703 seconds
+2020-04-23 08:49:31 - load - INFO : 1738it [00:00, 4889.38it/s]
+2020-04-23 08:49:31 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 08:49:32 - extract - INFO : webpharm extracted successfully
+2020-04-23 08:49:32 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 08:49:32 - transform - INFO : webpharm transformed successfully
+2020-04-23 08:49:32 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:49:32 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 08:49:32 - load - INFO : 80%|########  | 800/1000 [00:00<00:00, 7426.47it/s]
+2020-04-23 08:49:32 - load - INFO : webpharm - Insert completed successfully in 0.14634180068969727 seconds
+2020-04-23 08:49:32 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6753.72it/s]
+2020-04-23 08:52:13 - __main__ - INFO : ======== Executing Range Process ========
+2020-04-23 08:52:13 - __main__ - INFO : 22_04_2020 - 23_04_2020
+2020-04-23 08:52:13 - engine - INFO : ======== Initiating ETL Process for 22_04_2020 ========
+2020-04-23 08:52:13 - load - INFO : Attempting to connect
+2020-04-23 08:52:13 - load - INFO : Connection successfull
+2020-04-23 08:52:13 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 08:52:13 - extract - INFO : campaigns extracted successfully
+2020-04-23 08:52:13 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 08:52:13 - transform - INFO : campaigns transformed successfully
+2020-04-23 08:52:13 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:52:13 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 08:52:13 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 895.60it/s]
+2020-04-23 08:52:13 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 1199.26it/s]
+2020-04-23 08:52:13 - load - INFO : campaigns - Insert completed successfully in 0.31275105476379395 seconds
+2020-04-23 08:52:13 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3193.41it/s]
+2020-04-23 08:52:13 - extract - INFO : crypto - Initiating Extract
+2020-04-23 08:52:13 - extract - INFO : crypto extracted successfully
+2020-04-23 08:52:13 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 08:52:13 - transform - INFO : crypto transformed successfully
+2020-04-23 08:52:13 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 08:52:13 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 08:52:13 - load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5375.82it/s]
+2020-04-23 08:52:13 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 5905.19it/s]
+2020-04-23 08:52:13 - load - INFO : crypto - Insert completed successfully in 0.24441814422607422 seconds
+2020-04-23 08:52:13 - load - INFO : 1738it [00:00, 7105.53it/s]
+2020-04-23 08:52:13 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 08:52:14 - extract - INFO : webpharm extracted successfully
+2020-04-23 08:52:14 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 08:52:14 - transform - INFO : webpharm transformed successfully
+2020-04-23 08:52:14 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:52:14 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 08:52:14 - load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5997.00it/s]
+2020-04-23 08:52:14 - load - INFO : webpharm - Insert completed successfully in 0.1900625228881836 seconds
+2020-04-23 08:52:14 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5233.66it/s]
+2020-04-23 08:52:14 - engine - INFO : ======== Initiating ETL Process for 23_04_2020 ========
+2020-04-23 08:52:14 - load - INFO : Attempting to connect
+2020-04-23 08:52:14 - load - INFO : Connection successfull
+2020-04-23 08:52:14 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 08:52:14 - extract - INFO : campaigns extracted successfully
+2020-04-23 08:52:14 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 08:52:14 - transform - INFO : campaigns transformed successfully
+2020-04-23 08:52:14 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:52:14 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 08:52:14 - load - INFO : 90%|######### | 900/1000 [00:00<00:00, 8990.86it/s]
+2020-04-23 08:52:14 - load - INFO : campaigns - Insert completed successfully in 0.11565661430358887 seconds
+2020-04-23 08:52:14 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 8548.88it/s]
+2020-04-23 08:52:14 - extract - INFO : crypto - Initiating Extract
+2020-04-23 08:52:14 - extract - INFO : crypto extracted successfully
+2020-04-23 08:52:14 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 08:52:14 - transform - INFO : crypto transformed successfully
+2020-04-23 08:52:14 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 08:52:14 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 08:52:14 - load - INFO : 60%|#####9    | 948/1587 [00:00<00:00, 8434.70it/s]
+2020-04-23 08:52:14 - load - INFO : 1738it [00:00, 8188.17it/s]
+2020-04-23 08:52:14 - load - INFO : crypto - Insert completed successfully in 0.21637964248657227 seconds
+2020-04-23 08:52:14 - load - INFO : 1738it [00:00, 8032.18it/s]
+2020-04-23 08:52:14 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 08:52:15 - extract - INFO : webpharm extracted successfully
+2020-04-23 08:52:15 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 08:52:15 - transform - INFO : webpharm transformed successfully
+2020-04-23 08:52:15 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:52:15 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 08:52:15 - load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 6816.44it/s]
+2020-04-23 08:52:15 - load - INFO : webpharm - Insert completed successfully in 0.14768075942993164 seconds
+2020-04-23 08:52:15 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6727.93it/s]
+2020-04-23 08:53:39 - __main__ - INFO : ======== Executing Range Process ========
+2020-04-23 08:53:39 - __main__ - INFO : 23_04_2020 - 23_04_2020
+2020-04-23 08:53:39 - engine - INFO : ======== Initiating ETL Process for 23_04_2020 ========
+2020-04-23 08:53:39 - load - INFO : Attempting to connect
+2020-04-23 08:53:39 - load - INFO : Connection successfull
+2020-04-23 08:53:39 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 08:53:39 - extract - INFO : campaigns extracted successfully
+2020-04-23 08:53:39 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 08:53:39 - transform - INFO : campaigns transformed successfully
+2020-04-23 08:53:39 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:53:39 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 08:53:40 - load - INFO : 10%|#         | 100/1000 [00:00<00:02, 354.94it/s]
+2020-04-23 08:53:40 - load - INFO : 20%|##        | 200/1000 [00:00<00:01, 424.70it/s]
+2020-04-23 08:53:40 - load - INFO : 80%|########  | 800/1000 [00:00<00:00, 588.48it/s]
+2020-04-23 08:53:40 - load - INFO : campaigns - Insert completed successfully in 0.5534286499023438 seconds
+2020-04-23 08:53:40 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 1803.67it/s]
+2020-04-23 08:53:40 - extract - INFO : crypto - Initiating Extract
+2020-04-23 08:53:40 - extract - INFO : crypto extracted successfully
+2020-04-23 08:53:40 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 08:53:40 - transform - INFO : crypto transformed successfully
+2020-04-23 08:53:40 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 08:53:40 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 08:53:40 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 6986.67it/s]
+2020-04-23 08:53:40 - load - INFO : 100%|#########9| 1580/1587 [00:00<00:00, 6972.70it/s]
+2020-04-23 08:53:40 - load - INFO : crypto - Insert completed successfully in 0.24285531044006348 seconds
+2020-04-23 08:53:40 - load - INFO : 1738it [00:00, 7098.18it/s]
+2020-04-23 08:53:40 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 08:53:41 - extract - INFO : webpharm extracted successfully
+2020-04-23 08:53:41 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 08:53:41 - transform - INFO : webpharm transformed successfully
+2020-04-23 08:53:41 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 08:53:41 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 08:53:41 - load - INFO : 40%|####      | 400/1000 [00:00<00:00, 3923.00it/s]
+2020-04-23 08:53:41 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4247.32it/s]
+2020-04-23 08:53:41 - load - INFO : webpharm - Insert completed successfully in 0.21796894073486328 seconds
+2020-04-23 08:53:41 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4566.88it/s]
+2020-04-23 10:12:21 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-23 10:12:21 - engine - INFO : ======== Initiating ETL Process for 23_04_2020 ========
+2020-04-23 10:12:21 - load - INFO : Attempting to connect
+2020-04-23 10:12:21 - load - INFO : Connection successfull
+2020-04-23 10:12:21 - extract - INFO : campaigns - Initiating Extract
+2020-04-23 10:12:21 - extract - INFO : campaigns extracted successfully
+2020-04-23 10:12:21 - transform - INFO : campaigns - Initiating Transorm
+2020-04-23 10:12:21 - transform - INFO : campaigns transformed successfully
+2020-04-23 10:12:21 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 10:12:21 - load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 10:12:21 - load - INFO : 10%|#         | 100/1000 [00:00<00:01, 540.61it/s]
+2020-04-23 10:12:22 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 751.09it/s]
+2020-04-23 10:12:22 - load - INFO : campaigns - Insert completed successfully in 0.2961852550506592 seconds
+2020-04-23 10:12:22 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3370.66it/s]
+2020-04-23 10:12:22 - extract - INFO : crypto - Initiating Extract
+2020-04-23 10:12:22 - extract - INFO : crypto extracted successfully
+2020-04-23 10:12:22 - transform - INFO : crypto - Initiating Transorm
+2020-04-23 10:12:22 - transform - INFO : crypto transformed successfully
+2020-04-23 10:12:22 - load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 10:12:22 - load - INFO : Inserting 1587 rows into crypto
+2020-04-23 10:12:22 - load - INFO : 50%|####9     | 790/1587 [00:00<00:00, 7287.13it/s]
+2020-04-23 10:12:22 - load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 6772.84it/s]
+2020-04-23 10:12:22 - load - INFO : crypto - Insert completed successfully in 0.25998449325561523 seconds
+2020-04-23 10:12:22 - load - INFO : 1738it [00:00, 6659.43it/s]
+2020-04-23 10:12:22 - extract - INFO : webpharm - Initiating Extract
+2020-04-23 10:12:23 - extract - INFO : webpharm extracted successfully
+2020-04-23 10:12:23 - transform - INFO : webpharm - Initiating Transorm
+2020-04-23 10:12:23 - transform - INFO : webpharm transformed successfully
+2020-04-23 10:12:23 - load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 10:12:23 - load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 10:12:23 - load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5654.25it/s]
+2020-04-23 10:12:23 - load - INFO : webpharm - Insert completed successfully in 0.1741044521331787 seconds
+2020-04-23 10:12:23 - load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5705.90it/s]
+2020-04-23 10:27:05 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-23 10:27:05 - etl.engine - INFO : ======== Initiating ETL Process for 23_04_2020 ========
+2020-04-23 10:27:05 - etl.load - INFO : Attempting to connect
+2020-04-23 10:27:05 - etl.load - INFO : Connection successfull
+2020-04-23 10:27:05 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-23 10:27:05 - etl.extract - INFO : campaigns extracted successfully
+2020-04-23 10:27:05 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-23 10:27:05 - etl.transform - INFO : campaigns transformed successfully
+2020-04-23 10:27:05 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 10:27:05 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-23 10:27:06 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:01, 472.75it/s]
+2020-04-23 10:27:06 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 645.64it/s]
+2020-04-23 10:27:06 - etl.load - INFO : campaigns - Insert completed successfully in 0.398029088973999 seconds
+2020-04-23 10:27:06 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2507.36it/s]
+2020-04-23 10:27:06 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-23 10:27:06 - etl.extract - INFO : crypto extracted successfully
+2020-04-23 10:27:06 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-23 10:27:06 - etl.transform - INFO : crypto transformed successfully
+2020-04-23 10:27:06 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-23 10:27:06 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-23 10:27:06 - etl.load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5129.84it/s]
+2020-04-23 10:27:06 - etl.load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 4109.33it/s]
+2020-04-23 10:27:06 - etl.load - INFO : 100%|#########9| 1580/1587 [00:00<00:00, 4192.58it/s]
+2020-04-23 10:27:06 - etl.load - INFO : crypto - Insert completed successfully in 0.4160194396972656 seconds
+2020-04-23 10:27:06 - etl.load - INFO : 1738it [00:00, 4167.70it/s]
+2020-04-23 10:27:06 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-23 10:27:07 - etl.extract - INFO : webpharm extracted successfully
+2020-04-23 10:27:07 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-23 10:27:07 - etl.transform - INFO : webpharm transformed successfully
+2020-04-23 10:27:07 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-23 10:27:07 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-23 10:27:07 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5987.60it/s]
+2020-04-23 10:27:07 - etl.load - INFO : webpharm - Insert completed successfully in 0.1690220832824707 seconds
+2020-04-23 10:27:07 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5881.49it/s]
