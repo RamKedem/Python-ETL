@@ -23,7 +23,7 @@ The program supports the following procedures :
  ```
  
 - `range_load.py` - supports ETL process for a given range of dates
- <br>
+ 
  ```
  range_load.py  23_01_2020 28_01_2020
  ```
