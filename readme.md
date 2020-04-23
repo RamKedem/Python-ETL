@@ -6,10 +6,9 @@ Python ETL program, written in `python 3`
 - Supports MSSQL Server as target
 - Supports daily and range loads
 
-## Install and Setup
-- Clone the repo
-- Create a virtual env
-- Install the `requirements.txt` dependencies
+## Requirements 
+- `requirements.txt` dependencies
+- ODBC Driver 17 for SQL Server
 
 ## Usage
 The program supports the following procedures : 
