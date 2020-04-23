@@ -27,9 +27,7 @@ The program supports the following procedures :
  ```
  range_load.py  23_01_2020 28_01_2020
  ```
-
-Please note:
-1. The dates must be written according the following format `DD_MM_YYYY` 
+Please note: Dates must be written according the `DD_MM_YYYY` format 
 
 ## Structure 
 
@@ -38,17 +36,14 @@ Please note:
 │   range_load.py
 │   requirements.txt
 
-
 ├───conf
 │      credentials.py				# Target database credential file 
 │      logging_config.conf			# Logging configuration
 │      sources_config.json			# Source files configuration file
 │   
 
-
 ├───data					# Data Folder - Structured as:
 						# DATE/TYPE/SOURCE_NAME/SOURCE_FILES
-
 ├───etl
 │   │   engine.py				# Calling the ETL modules
 │   │   extract.py				# Extract portion
@@ -56,7 +51,6 @@ Please note:
 │   │   load.py					# Load portion
 │   │   transform.py				#Transform portion
 │   │   __init__.py
-
 
 ├───logs
 │       logfile.log				# Log File
