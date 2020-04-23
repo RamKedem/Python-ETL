@@ -13,8 +13,8 @@ Python ETL program, written in `python 3`
 ## Usage
 The program supports the following procedures : 
 - `daily_load.py` executes a daily ETL process. 
- - Can be executed without any arguments, defaults to the current date
- - Can be executed with specific date
+  - Can be executed without any arguments, defaults to the current date
+  - Can be executed with specific date
  
  ```
  daily_load.py
