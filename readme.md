@@ -16,11 +16,12 @@ The program supports the following procedures :
 - `daily_load.py` executes a daily ETL process. 
  - Can be executed without any arguments, defaults to the current date
  - Can be executed with specific date
- <br>
+ 
  ```
  daily_load.py
  daily_load.py 23_01_2020
  ```
+ 
 - `range_load.py` - supports ETL process for a given range of dates
  <br>
  ```
@@ -39,26 +40,26 @@ Please note:
 
 
 ├───conf
-│      credentials.py					  # Target database credential file 
+│      credentials.py				# Target database credential file 
 │      logging_config.conf			# Logging configuration
 │      sources_config.json			# Source files configuration file
 │   
 
 
-├───data									# Data Folder - Structured as:
-													# DATE/TYPE/SOURCE_NAME/SOURCE_FILES
+├───data					# Data Folder - Structured as:
+						# DATE/TYPE/SOURCE_NAME/SOURCE_FILES
 
 ├───etl
-│   │   engine.py						  # Calling the ETL modules
-│   │   extract.py						  # Extract portion
-│   │   helpers.py						 # Helper functions, used by the Load portion
-│   │   load.py							  # Load portion
-│   │   transform.py					 #Transform portion
+│   │   engine.py				# Calling the ETL modules
+│   │   extract.py				# Extract portion
+│   │   helpers.py				# Helper functions, used by the Load portion
+│   │   load.py					# Load portion
+│   │   transform.py				#Transform portion
 │   │   __init__.py
 
 
 ├───logs
-│       logfile.log						 # Log File
+│       logfile.log				# Log File
 
 ```
 
