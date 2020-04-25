@@ -9,6 +9,7 @@ Python ETL program, written in `python 3`
 ## Requirements 
 - `requirements.txt` dependencies
 - ODBC Driver 17 for SQL Server
+- Tested with `Python 3.6.4` and `SQLSRV2017`
 
 ## Usage
 The program supports the following procedures : 
