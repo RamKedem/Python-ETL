@@ -4,7 +4,6 @@ import time
 from tqdm import tqdm
 from etl.helpers import *
 
-
 class SQLServer():
 
     def __init__(self, server, instance, database, driver, user=None, password=None):

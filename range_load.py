@@ -4,7 +4,6 @@ import sys
 import datetime
 from datetime import date, timedelta
 
-
 def validate_date_text(date_text):
     try:
         valid_date = datetime.datetime.strptime(date_text, '%d_%m_%Y')

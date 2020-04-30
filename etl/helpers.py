@@ -1,6 +1,7 @@
 import logging
 import io
 
+
 class TqdmToLogger(io.StringIO):
     logger = None
     level = None

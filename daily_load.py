@@ -35,7 +35,6 @@ def main(process_date):
     logger.info(f'{"="*8} Executing Daily Process {"="*8}')
     engine.engine(process_date)
 
-
 if __name__ == '__main__':
     date = args_check()
     main(process_date=date)

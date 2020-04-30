@@ -30,6 +30,5 @@ def engine(date):
                 t = Transformer(source_type,source_name,df)
                 destination.insert_with_progress(t.modified_data,source_name)
 
-
 if __name__ == '__main__':
     engine()

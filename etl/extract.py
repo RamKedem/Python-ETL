@@ -3,7 +3,6 @@ import json
 import logging
 import glob
 
-
 class Extractor:
 
     def __init__(self):
