@@ -46,7 +46,7 @@ if condition_1:
 elif condition_2:
     return 2
 ...
-
+ 
 8. In extract.py you wrote the following code. It failed on execution
 
     def get_csv_data(self, date, csv_name):
