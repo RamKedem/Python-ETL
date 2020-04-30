@@ -1,19 +1,21 @@
-from datetime import date, timedelta
-
-def generate_range_dates(begin_date, e_date):
-    s_day,s_month,s_year = [int(date_part) for date_part in begin_date.split('_')]
-    e_day,e_month,e_year = [int(date_part) for date_part in e_date.split('_')]
-    s_date = date(s_year,s_month,s_day)
-    e_date = date(e_year,e_month,e_day)
-
-    dates = []
-    delta = e_date - s_date
-
-    for i in range(delta.days + 1):
-        day = s_date + timedelta(days=i)
-        dates.append(day.strftime("%d_%m_%Y"))
-
-    return dates
+def justify(sentence, required_line_width):
+    for sub_sentence in sentence.split('.'):
+        if 0 < len(sub_sentence) <= required_line_width:
+            sub_sentence = sub_sentence[1:] + '.' if sub_sentence[0] == ' ' \
+                                                  else sub_sentence + '.'
+            spaces_left = (required_line_width - len(sub_sentence))//2 + 2
+            spaces_right = required_line_width - len(sub_sentence) - spaces_left + 2
+            output = sub_sentence.split(' ')[0] +  \
+                                                + spaces_left * ' '\
+                                                + ' '.join(sub_sentence.split(' ')[1:-1]) \
+                                                + spaces_right * ' '\
+                                                + sub_sentence.split(' ')[-1]
+            yield output
 
 
-print(generate_range_dates('22_04_2020', '25_04_2020'))
+if '__name__'=='main':
+
+    string = "Don't wish to be normal. Wish to be yourself. To the hilt. Find out what you're best at, and develop it, and hopscotch your weaknesses. Wish to be great at whatever you are."
+    line_width = 40
+    for sentence in justify(string,line_width):
+        print(sentence)

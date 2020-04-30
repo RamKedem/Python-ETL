@@ -32,7 +32,7 @@ def args_check():
 def main(process_date):
     logging.config.fileConfig('conf/logging_config.conf')
     logger = logging.getLogger(__name__)
-    logger.info('======== Executing Daily Process ========')
+    logger.info(f'{"="*8} Executing Daily Process {"="*8}')
     engine.engine(process_date)
 
 

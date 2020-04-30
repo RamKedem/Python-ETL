@@ -1,7 +1,7 @@
 import logging
 
 
-class Transform:
+class Transformer:
 
     def __init__(self, data_type, data_name, df):
         self.data = df

@@ -1250,3 +1250,388 @@
 2020-04-23 10:27:07 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5987.60it/s]
 2020-04-23 10:27:07 - etl.load - INFO : webpharm - Insert completed successfully in 0.1690220832824707 seconds
 2020-04-23 10:27:07 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5881.49it/s]
+2020-04-24 09:25:41 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-24 09:25:41 - etl.engine - INFO : ======== Initiating ETL Process for 24_04_2020 ========
+2020-04-24 09:25:41 - etl.load - INFO : Attempting to connect
+2020-04-24 09:25:41 - etl.load - INFO : Connection successfull
+2020-04-24 09:25:41 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-24 09:25:41 - etl.extract - INFO : campaigns extracted successfully
+2020-04-24 09:25:41 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-24 09:25:41 - etl.transform - INFO : campaigns transformed successfully
+2020-04-24 09:25:41 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-24 09:25:41 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-24 09:25:42 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:02, 437.96it/s]
+2020-04-24 09:25:42 - etl.load - INFO : campaigns - Insert completed successfully in 0.3190891742706299 seconds
+2020-04-24 09:25:42 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3124.01it/s]
+2020-04-24 09:25:42 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-24 09:25:42 - etl.extract - INFO : crypto extracted successfully
+2020-04-24 09:25:42 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-24 09:25:42 - etl.transform - INFO : crypto transformed successfully
+2020-04-24 09:25:42 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-24 09:25:42 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-24 09:25:42 - etl.load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 10364.03it/s]
+2020-04-24 09:25:42 - etl.load - INFO : crypto - Insert completed successfully in 0.1647782325744629 seconds
+2020-04-24 09:25:42 - etl.load - INFO : 1738it [00:00, 10484.13it/s]
+2020-04-24 09:25:42 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-24 09:25:42 - etl.extract - INFO : webpharm extracted successfully
+2020-04-24 09:25:42 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-24 09:25:42 - etl.transform - INFO : webpharm transformed successfully
+2020-04-24 09:25:42 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-24 09:25:42 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-24 09:25:42 - etl.load - INFO : 80%|########  | 800/1000 [00:00<00:00, 7785.14it/s]
+2020-04-24 09:25:43 - etl.load - INFO : webpharm - Insert completed successfully in 0.13268208503723145 seconds
+2020-04-24 09:25:43 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 7480.65it/s]
+2020-04-24 10:00:04 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-24 10:00:04 - etl.engine - INFO : ======== Initiating ETL Process for 24_04_2020 ========
+2020-04-24 10:00:04 - etl.load - INFO : Attempting to connect
+2020-04-24 10:00:04 - etl.load - INFO : Connection successfull
+2020-04-24 10:00:04 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-24 10:00:04 - etl.extract - INFO : campaigns extracted successfully
+2020-04-24 10:00:04 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-24 10:00:04 - etl.transform - INFO : campaigns transformed successfully
+2020-04-24 10:00:04 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-24 10:00:04 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-24 10:00:04 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:01, 815.53it/s]
+2020-04-24 10:00:04 - etl.load - INFO : campaigns - Insert completed successfully in 0.2050306797027588 seconds
+2020-04-24 10:00:04 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4853.71it/s]
+2020-04-24 10:00:04 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-24 10:00:04 - etl.extract - INFO : crypto extracted successfully
+2020-04-24 10:00:04 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-24 10:00:04 - etl.transform - INFO : crypto transformed successfully
+2020-04-24 10:00:04 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-24 10:00:04 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-24 10:00:05 - etl.load - INFO : 60%|#####9    | 948/1587 [00:00<00:00, 8720.64it/s]
+2020-04-24 10:00:05 - etl.load - INFO : crypto - Insert completed successfully in 0.20666027069091797 seconds
+2020-04-24 10:00:05 - etl.load - INFO : 1738it [00:00, 8369.58it/s]
+2020-04-24 10:00:05 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-24 10:00:05 - etl.extract - INFO : webpharm extracted successfully
+2020-04-24 10:00:05 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-24 10:00:05 - etl.transform - INFO : webpharm transformed successfully
+2020-04-24 10:00:05 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-24 10:00:05 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-24 10:00:05 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5956.46it/s]
+2020-04-24 10:00:05 - etl.load - INFO : webpharm - Insert completed successfully in 0.15259194374084473 seconds
+2020-04-24 10:00:05 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 6510.86it/s]
+2020-04-26 10:00:03 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-26 10:00:03 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-26 10:00:03 - etl.load - INFO : Attempting to connect
+2020-04-26 10:00:03 - etl.load - INFO : Connection successfull
+2020-04-26 10:00:03 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-26 10:00:03 - etl.extract - INFO : No csv files found on data/26_04_2020/csv/campaigns/*.csv
+2020-04-26 10:00:03 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-26 10:00:03 - etl.extract - INFO : No csv files found on data/26_04_2020/csv/crypto/*.csv
+2020-04-26 10:00:03 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-26 10:00:03 - etl.extract - INFO : No excel files found on data/26_04_2020/excel/webpharm/*.xlsx
+2020-04-26 20:02:55 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-26 20:02:55 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-26 20:02:55 - etl.load - INFO : Attempting to connect
+2020-04-26 20:02:55 - etl.load - INFO : Connection successfull
+2020-04-26 20:02:55 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-26 20:02:55 - etl.extract - INFO : campaigns extracted successfully
+2020-04-26 20:02:55 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-26 20:02:55 - etl.transform - INFO : campaigns transformed successfully
+2020-04-26 20:02:55 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-26 20:02:55 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-26 20:02:56 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:02, 335.61it/s]
+2020-04-26 20:02:56 - etl.load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 466.91it/s]
+2020-04-26 20:02:56 - etl.load - INFO : campaigns - Insert completed successfully in 0.460052490234375 seconds
+2020-04-26 20:02:56 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2173.67it/s]
+2020-04-26 20:02:56 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-26 20:02:56 - etl.extract - INFO : crypto extracted successfully
+2020-04-26 20:02:56 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-26 20:02:56 - etl.transform - INFO : crypto transformed successfully
+2020-04-26 20:02:56 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-26 20:02:56 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-26 20:02:56 - etl.load - INFO : 20%|#9        | 316/1587 [00:00<00:00, 1932.13it/s]
+2020-04-26 20:02:56 - etl.load - INFO : 30%|##9       | 474/1587 [00:00<00:00, 1561.69it/s]
+2020-04-26 20:02:56 - etl.load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 1553.29it/s]
+2020-04-26 20:02:56 - etl.load - INFO : 60%|#####9    | 948/1587 [00:00<00:00, 1403.04it/s]
+2020-04-26 20:02:57 - etl.load - INFO : 80%|#######9  | 1264/1587 [00:00<00:00, 1478.36it/s]
+2020-04-26 20:02:57 - etl.load - INFO : crypto - Insert completed successfully in 0.972008228302002 seconds
+2020-04-26 20:02:57 - etl.load - INFO : 1738it [00:00, 1786.22it/s]
+2020-04-26 20:02:57 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-26 20:02:58 - etl.extract - INFO : webpharm extracted successfully
+2020-04-26 20:02:58 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-26 20:02:58 - etl.transform - INFO : webpharm transformed successfully
+2020-04-26 20:02:58 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-26 20:02:58 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-26 20:02:58 - etl.load - INFO : 30%|###       | 300/1000 [00:00<00:00, 2803.67it/s]
+2020-04-26 20:02:58 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 2654.78it/s]
+2020-04-26 20:02:58 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2933.20it/s]
+2020-04-26 20:02:58 - etl.load - INFO : webpharm - Insert completed successfully in 0.33800673484802246 seconds
+2020-04-26 20:02:58 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 2941.18it/s]
+2020-04-27 10:00:03 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-27 10:00:03 - etl.engine - INFO : ======== Initiating ETL Process for 27_04_2020 ========
+2020-04-27 10:00:03 - etl.load - INFO : Attempting to connect
+2020-04-27 10:00:03 - etl.load - INFO : Connection successfull
+2020-04-27 10:00:03 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-27 10:00:03 - etl.extract - INFO : No csv files found on data/27_04_2020/csv/campaigns/*.csv
+2020-04-27 10:00:03 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-27 10:00:03 - etl.extract - INFO : No csv files found on data/27_04_2020/csv/crypto/*.csv
+2020-04-27 10:00:03 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-27 10:00:03 - etl.extract - INFO : No excel files found on data/27_04_2020/excel/webpharm/*.xlsx
+2020-04-29 10:14:34 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-29 10:14:34 - etl.engine - INFO : ======== Initiating ETL Process for 29_04_2020 ========
+2020-04-29 10:14:34 - etl.load - INFO : Attempting to connect
+2020-04-29 10:14:34 - etl.load - INFO : Connection successfull
+2020-04-29 10:14:34 - etl.extract - INFO : campaigns - Initiating Extract
+2020-04-29 10:14:34 - etl.extract - INFO : No csv files found on data/29_04_2020/csv/campaigns/*.csv
+2020-04-29 10:14:34 - etl.extract - INFO : crypto - Initiating Extract
+2020-04-29 10:14:34 - etl.extract - INFO : No csv files found on data/29_04_2020/csv/crypto/*.csv
+2020-04-29 10:14:34 - etl.extract - INFO : webpharm - Initiating Extract
+2020-04-29 10:14:34 - etl.extract - INFO : No excel files found on data/29_04_2020/excel/webpharm/*.xlsx
+2020-04-30 10:02:28 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:02:28 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:02:28 - etl.load - INFO : Attempting to connect
+2020-04-30 10:02:28 - etl.load - ERROR : Unable to connect
+can't set attribute
+2020-04-30 10:07:06 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:07:06 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:07:06 - etl.load - INFO : Attempting to connect
+2020-04-30 10:07:06 - etl.load - ERROR : Unable to connect
+can't set attribute
+2020-04-30 10:08:38 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:08:38 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:08:38 - etl.load - INFO : Attempting to connect
+2020-04-30 10:08:38 - etl.load - INFO : Connection successfull
+2020-04-30 10:10:21 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:10:21 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:10:21 - etl.load - INFO : Attempting to connect
+2020-04-30 10:10:21 - etl.load - ERROR : Unable to connect
+can't set attribute
+2020-04-30 10:21:26 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:21:26 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:21:26 - etl.load - INFO : Attempting to connect
+2020-04-30 10:21:26 - etl.load - ERROR : Unable to connect
+can't set attribute
+2020-04-30 10:22:13 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:22:13 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:22:13 - etl.load - INFO : Attempting to connect
+2020-04-30 10:22:13 - etl.load - ERROR : Unable to connect
+can't set attribute
+2020-04-30 10:24:14 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:24:14 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:24:14 - etl.load - INFO : Attempting to connect
+2020-04-30 10:24:15 - etl.load - INFO : Connection successfull
+2020-04-30 10:26:46 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:26:46 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:26:46 - etl.load - INFO : Attempting to connect
+2020-04-30 10:26:46 - etl.load - ERROR : Unable to connect
+can't set attribute
+2020-04-30 10:35:20 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:35:20 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:35:20 - etl.load - INFO : Attempting to connect
+2020-04-30 10:35:20 - etl.load - INFO : Connection successfull
+2020-04-30 10:35:49 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:35:49 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:35:49 - etl.load - INFO : Attempting to connect
+2020-04-30 10:35:49 - etl.load - INFO : Connection successfull
+2020-04-30 10:38:15 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:38:15 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:38:15 - etl.load - INFO : Attempting to connect
+2020-04-30 10:38:15 - etl.load - INFO : Connection successfull
+2020-04-30 10:38:28 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:38:28 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:38:28 - etl.load - INFO : Attempting to connect
+2020-04-30 10:38:28 - etl.load - INFO : Connection successfull
+2020-04-30 10:39:56 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:39:56 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:39:56 - etl.load - INFO : Attempting to connect
+2020-04-30 10:39:56 - etl.load - INFO : Connection successfull
+2020-04-30 10:43:47 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:43:47 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:43:47 - etl.load - INFO : Attempting to connect
+2020-04-30 10:43:47 - etl.load - INFO : Connection successfull
+2020-04-30 10:47:35 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:47:35 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:47:35 - etl.load - INFO : Attempting to connect
+2020-04-30 10:47:36 - etl.load - INFO : Connection successfull
+2020-04-30 10:50:55 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:50:55 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:50:55 - etl.load - INFO : Attempting to connect
+2020-04-30 10:50:55 - etl.load - INFO : Connection successfull
+2020-04-30 10:53:04 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:53:04 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:53:04 - etl.load - INFO : Attempting to connect
+2020-04-30 10:53:04 - etl.load - INFO : Connection successfull
+2020-04-30 10:55:01 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:55:01 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:55:01 - etl.load - INFO : Attempting to connect
+2020-04-30 10:55:02 - etl.load - INFO : Connection successfull
+2020-04-30 10:59:38 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 10:59:38 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 10:59:38 - etl.load - INFO : Attempting to connect
+2020-04-30 10:59:39 - etl.load - INFO : Connection successfull
+2020-04-30 11:01:25 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:01:25 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:01:25 - etl.load - INFO : Attempting to connect
+2020-04-30 11:01:25 - etl.load - INFO : Connection successfull
+2020-04-30 11:02:00 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:02:00 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:02:00 - etl.load - INFO : Attempting to connect
+2020-04-30 11:02:00 - etl.load - INFO : Connection successfull
+2020-04-30 11:03:52 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:03:52 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:03:52 - etl.load - INFO : Attempting to connect
+2020-04-30 11:03:52 - etl.load - INFO : Connection successfull
+2020-04-30 11:04:32 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:04:32 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:04:32 - etl.load - INFO : Attempting to connect
+2020-04-30 11:04:32 - etl.load - INFO : Connection successfull
+2020-04-30 11:05:09 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:05:09 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:05:09 - etl.load - INFO : Attempting to connect
+2020-04-30 11:05:09 - etl.load - INFO : Connection successfull
+2020-04-30 11:05:45 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:05:45 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:05:45 - etl.load - INFO : Attempting to connect
+2020-04-30 11:05:45 - etl.load - INFO : Connection successfull
+2020-04-30 11:06:46 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:06:46 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:06:46 - etl.load - INFO : Attempting to connect
+2020-04-30 11:06:46 - etl.load - INFO : Connection successfull
+2020-04-30 11:07:40 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:07:40 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:07:40 - etl.load - INFO : Attempting to connect
+2020-04-30 11:07:40 - etl.load - INFO : Connection successfull
+2020-04-30 11:10:11 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:10:11 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:10:11 - etl.load - INFO : Attempting to connect
+2020-04-30 11:10:11 - etl.load - INFO : Connection successfull
+2020-04-30 11:10:24 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:10:24 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:10:24 - etl.load - INFO : Attempting to connect
+2020-04-30 11:10:24 - etl.load - INFO : Connection successfull
+2020-04-30 11:12:59 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:12:59 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:12:59 - etl.load - INFO : Attempting to connect
+2020-04-30 11:12:59 - etl.load - INFO : Connection successfull
+2020-04-30 11:13:17 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:13:17 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:13:17 - etl.load - INFO : Attempting to connect
+2020-04-30 11:13:17 - etl.load - INFO : Connection successfull
+2020-04-30 11:13:17 - etl.extract - INFO : 26_04_2020 - Initiating extraction
+2020-04-30 11:13:17 - etl.extract - ERROR : Unable to load 26_04_2020
+'26_04_2020'
+2020-04-30 11:13:17 - etl.extract - INFO : 26_04_2020 - Initiating extraction
+2020-04-30 11:13:17 - etl.extract - ERROR : Unable to load 26_04_2020
+'26_04_2020'
+2020-04-30 11:15:28 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:15:28 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:15:28 - etl.load - INFO : Attempting to connect
+2020-04-30 11:15:28 - etl.load - INFO : Connection successfull
+2020-04-30 11:15:28 - etl.extract - INFO : campaigns - Initiating extraction
+2020-04-30 11:15:28 - etl.extract - ERROR : Unable to load campaigns
+'campaigns'
+2020-04-30 11:15:28 - etl.extract - INFO : crypto - Initiating extraction
+2020-04-30 11:15:28 - etl.extract - ERROR : Unable to load crypto
+'crypto'
+2020-04-30 11:15:28 - etl.extract - INFO : webpharm - Initiating extraction
+2020-04-30 11:15:29 - etl.extract - INFO : webpharm extracted successfully
+2020-04-30 11:15:29 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-30 11:15:29 - etl.transform - INFO : webpharm transformed successfully
+2020-04-30 11:15:29 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:15:29 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-30 11:15:30 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:07, 124.00it/s]
+2020-04-30 11:15:30 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:02, 174.60it/s]
+2020-04-30 11:15:30 - etl.load - INFO : webpharm - Insert completed successfully in 1.0268652439117432 seconds
+2020-04-30 11:15:30 - etl.load - INFO : 100%|##########| 1000/1000 [00:01<00:00, 972.89it/s]
+2020-04-30 11:17:53 - __main__ - INFO : ======== Executing Daily Process ========
+2020-04-30 11:17:53 - etl.engine - INFO : ======== Initiating ETL Process for 26_04_2020 ========
+2020-04-30 11:17:53 - etl.load - INFO : Attempting to connect
+2020-04-30 11:17:53 - etl.load - INFO : Connection successfull
+2020-04-30 11:17:53 - etl.extract - INFO : campaigns - Initiating extraction
+2020-04-30 11:17:53 - etl.extract - INFO : campaigns extracted successfully
+2020-04-30 11:17:54 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-30 11:17:54 - etl.transform - INFO : campaigns transformed successfully
+2020-04-30 11:17:54 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:17:54 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-30 11:17:54 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:03, 265.80it/s]
+2020-04-30 11:17:54 - etl.load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 372.26it/s]
+2020-04-30 11:17:54 - etl.load - INFO : campaigns - Insert completed successfully in 0.5250258445739746 seconds
+2020-04-30 11:17:54 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 1901.05it/s]
+2020-04-30 11:17:54 - etl.extract - INFO : crypto - Initiating extraction
+2020-04-30 11:17:54 - etl.extract - INFO : crypto extracted successfully
+2020-04-30 11:17:54 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-30 11:17:54 - etl.transform - INFO : crypto transformed successfully
+2020-04-30 11:17:54 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-30 11:17:54 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-30 11:17:54 - etl.load - INFO : 30%|##9       | 474/1587 [00:00<00:00, 4053.34it/s]
+2020-04-30 11:17:54 - etl.load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 4369.94it/s]
+2020-04-30 11:17:54 - etl.load - INFO : 1738it [00:00, 4754.28it/s]
+2020-04-30 11:17:54 - etl.load - INFO : crypto - Insert completed successfully in 0.34085845947265625 seconds
+2020-04-30 11:17:54 - etl.load - INFO : 1738it [00:00, 5083.97it/s]
+2020-04-30 11:17:54 - etl.extract - INFO : webpharm - Initiating extraction
+2020-04-30 11:17:55 - etl.extract - INFO : webpharm extracted successfully
+2020-04-30 11:17:55 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-30 11:17:55 - etl.transform - INFO : webpharm transformed successfully
+2020-04-30 11:17:55 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:17:55 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-30 11:17:55 - etl.load - INFO : 50%|#####     | 500/1000 [00:00<00:00, 4562.89it/s]
+2020-04-30 11:17:55 - etl.load - INFO : webpharm - Insert completed successfully in 0.20552611351013184 seconds
+2020-04-30 11:17:55 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 4843.59it/s]
+2020-04-30 11:26:58 - __main__ - INFO : ======== Executing Range Process ========
+2020-04-30 11:26:58 - __main__ - INFO : 24_04_2020 - 25_04_2020
+2020-04-30 11:26:58 - etl.engine - INFO : ======== Initiating ETL Process for 24_04_2020 ========
+2020-04-30 11:26:58 - etl.load - INFO : Attempting to connect
+2020-04-30 11:26:58 - etl.load - INFO : Connection successfull
+2020-04-30 11:26:58 - etl.extract - INFO : campaigns - Initiating extraction
+2020-04-30 11:26:58 - etl.extract - INFO : campaigns extracted successfully
+2020-04-30 11:26:58 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-30 11:26:58 - etl.transform - INFO : campaigns transformed successfully
+2020-04-30 11:26:58 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:26:58 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-30 11:26:59 - etl.load - INFO : 10%|#         | 100/1000 [00:00<00:01, 641.66it/s]
+2020-04-30 11:26:59 - etl.load - INFO : 90%|######### | 900/1000 [00:00<00:00, 885.65it/s]
+2020-04-30 11:26:59 - etl.load - INFO : campaigns - Insert completed successfully in 0.2786376476287842 seconds
+2020-04-30 11:26:59 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 3576.09it/s]
+2020-04-30 11:26:59 - etl.extract - INFO : crypto - Initiating extraction
+2020-04-30 11:26:59 - etl.extract - INFO : crypto extracted successfully
+2020-04-30 11:26:59 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-30 11:26:59 - etl.transform - INFO : crypto transformed successfully
+2020-04-30 11:26:59 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-30 11:26:59 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-30 11:26:59 - etl.load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5374.28it/s]
+2020-04-30 11:26:59 - etl.load - INFO : 90%|########9 | 1422/1587 [00:00<00:00, 5711.18it/s]
+2020-04-30 11:26:59 - etl.load - INFO : crypto - Insert completed successfully in 0.30788755416870117 seconds
+2020-04-30 11:26:59 - etl.load - INFO : 1738it [00:00, 5626.69it/s]
+2020-04-30 11:26:59 - etl.extract - INFO : webpharm - Initiating extraction
+2020-04-30 11:27:00 - etl.extract - INFO : webpharm extracted successfully
+2020-04-30 11:27:00 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-30 11:27:00 - etl.transform - INFO : webpharm transformed successfully
+2020-04-30 11:27:00 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:27:00 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-30 11:27:00 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5662.75it/s]
+2020-04-30 11:27:00 - etl.load - INFO : webpharm - Insert completed successfully in 0.1948850154876709 seconds
+2020-04-30 11:27:00 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5105.11it/s]
+2020-04-30 11:27:00 - etl.engine - INFO : ======== Initiating ETL Process for 25_04_2020 ========
+2020-04-30 11:27:00 - etl.load - INFO : Attempting to connect
+2020-04-30 11:27:00 - etl.load - INFO : Connection successfull
+2020-04-30 11:27:00 - etl.extract - INFO : campaigns - Initiating extraction
+2020-04-30 11:27:00 - etl.extract - INFO : campaigns extracted successfully
+2020-04-30 11:27:00 - etl.transform - INFO : campaigns - Initiating Transorm
+2020-04-30 11:27:00 - etl.transform - INFO : campaigns transformed successfully
+2020-04-30 11:27:00 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:27:00 - etl.load - INFO : Inserting 1000 rows into campaigns
+2020-04-30 11:27:00 - etl.load - INFO : 70%|#######   | 700/1000 [00:00<00:00, 5836.83it/s]
+2020-04-30 11:27:00 - etl.load - INFO : campaigns - Insert completed successfully in 0.17783522605895996 seconds
+2020-04-30 11:27:00 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5563.51it/s]
+2020-04-30 11:27:00 - etl.extract - INFO : crypto - Initiating extraction
+2020-04-30 11:27:00 - etl.extract - INFO : crypto extracted successfully
+2020-04-30 11:27:00 - etl.transform - INFO : crypto - Initiating Transorm
+2020-04-30 11:27:00 - etl.transform - INFO : crypto transformed successfully
+2020-04-30 11:27:00 - etl.load - INFO : 0%|          | 0/1587 [00:00<?, ?it/s]
+2020-04-30 11:27:00 - etl.load - INFO : Inserting 1587 rows into crypto
+2020-04-30 11:27:00 - etl.load - INFO : 40%|###9      | 632/1587 [00:00<00:00, 5493.17it/s]
+2020-04-30 11:27:01 - etl.load - INFO : 70%|######9   | 1106/1587 [00:00<00:00, 5182.03it/s]
+2020-04-30 11:27:01 - etl.load - INFO : crypto - Insert completed successfully in 0.31098389625549316 seconds
+2020-04-30 11:27:01 - etl.load - INFO : 1738it [00:00, 5588.71it/s]
+2020-04-30 11:27:01 - etl.extract - INFO : webpharm - Initiating extraction
+2020-04-30 11:27:01 - etl.extract - INFO : webpharm extracted successfully
+2020-04-30 11:27:01 - etl.transform - INFO : webpharm - Initiating Transorm
+2020-04-30 11:27:01 - etl.transform - INFO : webpharm transformed successfully
+2020-04-30 11:27:01 - etl.load - INFO : 0%|          | 0/1000 [00:00<?, ?it/s]
+2020-04-30 11:27:01 - etl.load - INFO : Inserting 1000 rows into webpharm
+2020-04-30 11:27:01 - etl.load - INFO : 60%|######    | 600/1000 [00:00<00:00, 5308.14it/s]
+2020-04-30 11:27:02 - etl.load - INFO : webpharm - Insert completed successfully in 0.18441367149353027 seconds
+2020-04-30 11:27:02 - etl.load - INFO : 100%|##########| 1000/1000 [00:00<00:00, 5413.01it/s]

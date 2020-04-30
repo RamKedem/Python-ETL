@@ -13,21 +13,21 @@ def engine(date):
 
     logger.info(f"======== Initiating ETL Process for {date} ========")
 
-    destination = SqlServer(sql_server_target['server'],
+    destination = SQLServer(sql_server_target['server'],
                             sql_server_target['instance'],
                             sql_server_target['database'],
                             sql_server_target['driver'])
 
+    extractor = Extractor()
     for source_type, source_names in etl_data['data_sources'].items():
         for source_name in source_names:
-            e = Extract()
             if source_type == 'csv':
-                df = e.get_csv_data(date,source_name)
+                df = extractor.get_csv_data(date,source_name)
             elif source_type == 'excel':
-                df = e.get_excel_data(date,source_name)
+                df = extractor.get_excel_data(date,source_name)
 
             if df is not None:
-                t = Transform(source_type,source_name,df)
+                t = Transformer(source_type,source_name,df)
                 destination.insert_with_progress(t.modified_data,source_name)
 
 

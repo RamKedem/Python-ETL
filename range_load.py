@@ -1,4 +1,4 @@
-import engine
+from etl import engine
 import logging.config
 import sys
 import datetime
@@ -13,31 +13,29 @@ def validate_date_text(date_text):
         print("Incorrect data format, should be DD_MM_YYYY")
         sys.exit(1)
 
-
-def generate_range_dates(begin_date, e_date):
-    s_day,s_month,s_year = [int(date_part) for date_part in begin_date.split('_')]
-    e_day,e_month,e_year = [int(date_part) for date_part in e_date.split('_')]
-    s_date = date(s_year,s_month,s_day)
-    e_date = date(e_year,e_month,e_day)
+def generate_range_dates(start_date, end_date):
+    start_day,start_month,start_year = [int(date_part) for date_part in start_date.split('_')]
+    end_day,end_month,end_year = [int(date_part) for date_part in end_date.split('_')]
+    start_date = date(start_year,start_month,start_day)
+    end_date = date(end_year,end_month,end_day)
 
     dates = []
-    delta = e_date - s_date
+    delta = end_date - start_date
 
     for i in range(delta.days + 1):
-        day = s_date + timedelta(days=i)
+        day = start_date + timedelta(days=i)
         dates.append(day.strftime("%d_%m_%Y"))
 
     return dates
-
 
 def args_check():
     if len(sys.argv) != 3:
         print("Usage : range_load.py START_DATE END_DATE")
         sys.exit(1)
     else:
-        s_date = validate_date_text(sys.argv[1])
-        e_date = validate_date_text(sys.argv[2])
-        return generate_range_dates(s_date, e_date)
+        start_date = validate_date_text(sys.argv[1])
+        end_date = validate_date_text(sys.argv[2])
+        return generate_range_dates(start_date, end_date)
 
 
 def main(process_date):
